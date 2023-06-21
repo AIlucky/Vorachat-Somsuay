@@ -10,15 +10,10 @@
   * [Focus](cheat-sheets/enumeration/focus.md)
 * [📩 File Transfer](cheat-sheets/file-transfer.md)
 
-## Team
+## Writeups
 
-* [👋 Meet the Team!](team/meet-the-team.md)
+* [💚 Hack The Box](writeups/hack-the-box.md)
 
-## Collaborating
+## Blog
 
-* [🤝 How we Work Together](collaborating/how-we-work-together.md)
-* [📅 Meetings](collaborating/meetings.md)
-
-## Policies
-
-* [🌴 Requesting Time Off](policies/requesting-time-off.md)
+* [💀 Penetration testing](blog/penetration-testing.md)
