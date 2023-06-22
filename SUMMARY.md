@@ -13,6 +13,7 @@
   * [Windows](cheat-sheets/file-transfer/windows.md)
   * [Linux](cheat-sheets/file-transfer/linux.md)
   * [Transfer with code](cheat-sheets/file-transfer/transfer-with-code.md)
+  * [Additional Methods](cheat-sheets/file-transfer/additional-methods.md)
 
 ## Writeups
 

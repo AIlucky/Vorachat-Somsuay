@@ -60,7 +60,6 @@ ruby -e 'require "net/http"; File.write("LinEnum.sh", Net::HTTP.get(URI.parse("h
 perl -e 'use LWP::Simple; getstore("https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh", "LinEnum.sh");'
 ```
 
+## Resources
 
-
-
-
+Most of the commands and contents are from **HTB academy lab!**

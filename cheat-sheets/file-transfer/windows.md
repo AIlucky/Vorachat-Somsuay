@@ -2,7 +2,7 @@
 
 ## Download
 
-### Copy\&Paste
+### Copy & Paste
 
 This works by encoding the file as base64 and copying it to the destination and decode the string back to file. This might come in handy.
 
