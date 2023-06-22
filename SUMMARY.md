@@ -4,11 +4,14 @@
 
 ## Cheat Sheets
 
-* [🔎 Enumeration](cheat-sheets/enumeration/README.md)
-  * [Vision](cheat-sheets/enumeration/vision.md)
-  * [Mission](cheat-sheets/enumeration/mission.md)
-  * [Focus](cheat-sheets/enumeration/focus.md)
-* [📩 File Transfer](cheat-sheets/file-transfer.md)
+* [🌐 Network Enum (Nmap)](cheat-sheets/network-enum-nmap.md)
+* [🔎 Service Enum](cheat-sheets/service-enum/README.md)
+  * [Vision](cheat-sheets/service-enum/vision.md)
+  * [Mission](cheat-sheets/service-enum/mission.md)
+  * [Focus](cheat-sheets/service-enum/focus.md)
+* [📩 File Transfer](cheat-sheets/file-transfer/README.md)
+  * [Windows](cheat-sheets/file-transfer/windows.md)
+  * [Linux](cheat-sheets/file-transfer/linux.md)
 
 ## Writeups
 
