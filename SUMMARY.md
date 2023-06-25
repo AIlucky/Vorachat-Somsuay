@@ -14,11 +14,15 @@
   * [Linux](cheat-sheets/file-transfer/linux.md)
   * [Transfer with code](cheat-sheets/file-transfer/transfer-with-code.md)
   * [Additional Methods](cheat-sheets/file-transfer/additional-methods.md)
-* [Shell & Payloads](cheat-sheets/shell-and-payloads.md)
+* [🐚 Shell & Payloads](cheat-sheets/shell-and-payloads/README.md)
+  * [Windows Exploits](cheat-sheets/shell-and-payloads/windows-exploits.md)
+  * [Shell upgrade](cheat-sheets/shell-and-payloads/shell-upgrade.md)
+  * [Web shells](cheat-sheets/shell-and-payloads/web-shells.md)
 
 ## Writeups
 
-* [💚 Hack The Box](writeups/hack-the-box.md)
+* [💚 Hack The Box](writeups/hack-the-box/README.md)
+  * [Shells & Payloads The Live Engagement](writeups/hack-the-box/shells-and-payloads-the-live-engagement.md)
 
 ## Blog
 

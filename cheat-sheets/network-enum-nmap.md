@@ -2,7 +2,7 @@
 
 ### General port/service TCP scan
 
-<pre class="language-bash" data-full-width="true"><code class="lang-bash"><strong>sudo nmap &#x3C;ip> -p- -sC -sV -oA &#x3C;output>
+<pre class="language-bash"><code class="lang-bash"><strong>sudo nmap &#x3C;ip> -p- -sC -sV -oA &#x3C;output>
 </strong></code></pre>
 
 ### Rust scan
@@ -54,3 +54,12 @@ sudo nmap <ip> -p <port> -sS -Pn -n --disable-arp-ping --source-port <src port>
 sudo nmap <ip> -p <port> -sS -Pn -n --disable-arp-ping -D RND:<#ips>
 # sudo nmap 10.129.2.28 -p 80 -sS -Pn -n --disable-arp-ping -D RND:5
 ```
+
+### Banner grabbing
+
+```bash
+sudo nmap -v <ip> --script banner.nse
+```
+
+
+
