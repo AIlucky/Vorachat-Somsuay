@@ -18,6 +18,8 @@
   * [Windows Exploits](cheat-sheets/shell-and-payloads/windows-exploits.md)
   * [Shell upgrade](cheat-sheets/shell-and-payloads/shell-upgrade.md)
   * [Web shells](cheat-sheets/shell-and-payloads/web-shells.md)
+* [🔑 Password Attacks](cheat-sheets/password-attacks/README.md)
+  * [John The Ripper](cheat-sheets/password-attacks/john-the-ripper.md)
 
 ## Writeups
 
