@@ -9,6 +9,8 @@
   * [FTP \[21\]](cheat-sheets/service-enum/ftp-21.md)
   * [SMB \[139,445\]](cheat-sheets/service-enum/smb-139-445.md)
   * [NFS \[111,2049\]](cheat-sheets/service-enum/nfs-111-2049.md)
+  * [RDP \[3389\]](cheat-sheets/service-enum/rdp-3389.md)
+  * [WinRM \[5985,5986\]](cheat-sheets/service-enum/winrm-5985-5986.md)
 * [📩 File Transfer](cheat-sheets/file-transfer/README.md)
   * [Windows](cheat-sheets/file-transfer/windows.md)
   * [Linux](cheat-sheets/file-transfer/linux.md)
@@ -20,6 +22,7 @@
   * [Web shells](cheat-sheets/shell-and-payloads/web-shells.md)
 * [🔑 Password Attacks](cheat-sheets/password-attacks/README.md)
   * [John The Ripper](cheat-sheets/password-attacks/john-the-ripper.md)
+  * [Network Services](cheat-sheets/password-attacks/network-services.md)
 
 ## Writeups
 
