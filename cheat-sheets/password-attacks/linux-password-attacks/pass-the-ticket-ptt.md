@@ -65,6 +65,8 @@ smbclient //dc01.inlanefreight.htb/svc_workstations -c 'ls'  -k -no-pass > /home
 
 > [kinit](https://web.mit.edu/kerberos/krb5-1.12/doc/user/user\_commands/kinit.html) allows interaction with Kerberos, and its function is to request the user's TGT and store this ticket in the cache (ccache file).
 
+> Note: As we discussed in the Pass the Ticket from Windows section, a computer account needs a ticket to interact with the Active Directory environment. Similarly, a Linux domain joined machine needs a ticket. The ticket is represented as a keytab file located by default at `/etc/krb5.keytab` and can only be read by the root user. If we gain access to this ticket, we can impersonate the computer account LINUX01$.INLANEFREIGHT.HTB
+
 ### Finding Kerberos Tickets - ccache Files
 
 **Reviewing Environment Variables for ccache Files.**
@@ -303,25 +305,45 @@ Connect to the target machine using SSH to the port TCP/2222 and the provided cr
 
 Which group can connect to LINUX01?
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Look for a keytab file that you have read and write access. Submit the file name as a response.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Extract the hashes from the keytab file you found, crack the password, log in as the user and submit the flag in the user's home directory.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../.gitbook/assets/image (7).png>)
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Check Carlos' crontab, and look for keytabs to which Carlos has access. Try to get the credentials of the user svc\_workstations and use them to authenticate via SSH. Submit the flag.txt in svc\_workstations' home directory.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Check svc\_workstation's sudo privileges and get access as root. Submit the flag in /root/flag.txt directory as the response.
 
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Check the /tmp directory and find Julio's Kerberos ticket (ccache file). Import the ticket and read the contents of julio.txt from the domain share folder \DC01\julio.
+
+```
+root@linux01:~# echo $KRB5CCNAME
+FILE:/tmp/krb5cc_647401109_cqAsZ9
+
+```
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
+Use the LINUX01$ Kerberos ticket to read the flag found in \DC01\linux01. Submit the contents as your response (the flag starts with Us1nG\_).
+
+* The keytab for linux01 is stored in /etc/krb5.keytab
+* To kinit the keytab we have to type the following command\
+  `kinit 'LINUX01$@INLANEFREIGHT.HTB' -k -t /etc/krb5.keytab`
+* Since LINUX01$ has a $ sign, the character after it will not be recognized. That is why we put a single quote around it and access the //DC01/linux01 share and get the flag.

