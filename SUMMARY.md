@@ -30,9 +30,11 @@
     * [Attacking Active Directory & NTDS.dit](cheat-sheets/password-attacks/windows-password-attacks/attacking-active-directory-and-ntds.dit.md)
     * [Credential Hunting](cheat-sheets/password-attacks/windows-password-attacks/credential-hunting.md)
     * [Pass the Hash (PtH)](cheat-sheets/password-attacks/windows-password-attacks/pass-the-hash-pth.md)
+    * [Pass the Ticket (PtT)](cheat-sheets/password-attacks/windows-password-attacks/pass-the-ticket-ptt.md)
   * [Linux Password Attacks](cheat-sheets/password-attacks/linux-password-attacks/README.md)
     * [Credentail Hunting](cheat-sheets/password-attacks/linux-password-attacks/credentail-hunting.md)
     * [Passwd, Shadow & Opasswd](cheat-sheets/password-attacks/linux-password-attacks/passwd-shadow-and-opasswd.md)
+    * [Pass the Ticket (PtT)](cheat-sheets/password-attacks/linux-password-attacks/pass-the-ticket-ptt.md)
 
 ## Writeups
 

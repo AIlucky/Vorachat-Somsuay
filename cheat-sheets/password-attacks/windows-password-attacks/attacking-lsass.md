@@ -1,3 +1,7 @@
+---
+description: Local Security Authority Subsystem Service
+---
+
 # Attacking LSASS
 
 ### Dumping LSASS Process Memory

