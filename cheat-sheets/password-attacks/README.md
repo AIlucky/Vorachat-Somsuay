@@ -37,7 +37,7 @@ some random guy on the reddit told to not use reddit cuz it's slow and has alot 
 
 ### Default Passwords
 
-look at [this ](https://github.com/ihebski/DefaultCreds-cheat-sheet)page for tool to find default password for most of the services. and [this ](https://www.softwaretestinghelp.com/default-router-username-and-password-list/)page for default passwords for routers.
+Look at [Default Credentials Cheat Sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)[ ](https://github.com/ihebski/DefaultCreds-cheat-sheet)page to find default password for most of the services. and [this ](https://www.softwaretestinghelp.com/default-router-username-and-password-list/)page for default passwords for routers.
 
 
 

@@ -1,5 +1,7 @@
 # Network Services
 
+## Windows
+
 ### WinRM
 
 **CrackMapExec**

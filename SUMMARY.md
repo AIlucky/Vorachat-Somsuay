@@ -9,6 +9,7 @@
   * [FTP \[21\]](cheat-sheets/service-enum/ftp-21.md)
   * [SMB \[139,445\]](cheat-sheets/service-enum/smb-139-445.md)
   * [NFS \[111,2049\]](cheat-sheets/service-enum/nfs-111-2049.md)
+  * [MySQL \[3306\]](cheat-sheets/service-enum/mysql-3306.md)
   * [RDP \[3389\]](cheat-sheets/service-enum/rdp-3389.md)
   * [WinRM \[5985,5986\]](cheat-sheets/service-enum/winrm-5985-5986.md)
 * [📩 File Transfer](cheat-sheets/file-transfer/README.md)
@@ -23,6 +24,15 @@
 * [🔑 Password Attacks](cheat-sheets/password-attacks/README.md)
   * [John The Ripper](cheat-sheets/password-attacks/john-the-ripper.md)
   * [Network Services](cheat-sheets/password-attacks/network-services.md)
+  * [Windows Password Attacks](cheat-sheets/password-attacks/windows-password-attacks/README.md)
+    * [Attacking SAM](cheat-sheets/password-attacks/windows-password-attacks/attacking-sam.md)
+    * [Attacking LSASS](cheat-sheets/password-attacks/windows-password-attacks/attacking-lsass.md)
+    * [Attacking Active Directory & NTDS.dit](cheat-sheets/password-attacks/windows-password-attacks/attacking-active-directory-and-ntds.dit.md)
+    * [Credential Hunting](cheat-sheets/password-attacks/windows-password-attacks/credential-hunting.md)
+    * [Pass the Hash (PtH)](cheat-sheets/password-attacks/windows-password-attacks/pass-the-hash-pth.md)
+  * [Linux Password Attacks](cheat-sheets/password-attacks/linux-password-attacks/README.md)
+    * [Credentail Hunting](cheat-sheets/password-attacks/linux-password-attacks/credentail-hunting.md)
+    * [Passwd, Shadow & Opasswd](cheat-sheets/password-attacks/linux-password-attacks/passwd-shadow-and-opasswd.md)
 
 ## Writeups
 
