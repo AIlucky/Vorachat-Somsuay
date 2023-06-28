@@ -49,3 +49,32 @@ telnet 10.129.14.136 21
 openssl s_client -connect 10.129.14.136:21 -starttls ftp
 ```
 
+**Downloading file**
+
+```
+ftp <IP>
+PASSIVE
+BINARY
+get <FILE>
+```
+
+**Uploading file**
+
+```
+ftp <IP>
+PASSIVE
+BINARY
+put <FILE
+```
+
+### Brute force <a href="#brute-force" id="brute-force"></a>
+
+```
+hydra -V -f -L <USERS_LIST> -P <PASSWORDS_LIST> ftp://<IP> -u -vV
+```
+
+```shell-session
+medusa -u fiona -P /usr/share/wordlists/rockyou.txt -h 10.129.203.7 -M ftp 
+```
+
+[CVE-2022-22836](https://nvd.nist.gov/vuln/detail/CVE-2022-22836)

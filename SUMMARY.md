@@ -35,6 +35,8 @@
     * [Credentail Hunting](cheat-sheets/password-attacks/linux-password-attacks/credentail-hunting.md)
     * [Passwd, Shadow & Opasswd](cheat-sheets/password-attacks/linux-password-attacks/passwd-shadow-and-opasswd.md)
     * [Pass the Ticket (PtT)](cheat-sheets/password-attacks/linux-password-attacks/pass-the-ticket-ptt.md)
+  * [Assessment](cheat-sheets/password-attacks/assessment.md)
+* [Attacking common services](cheat-sheets/attacking-common-services.md)
 
 ## Writeups
 
