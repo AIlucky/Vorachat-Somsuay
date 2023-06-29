@@ -92,12 +92,12 @@ xfreerdp  /v:10.129.201.126 /u:julio /pth:64F12CDDAA88057E06A81B54E73B949B
 > To enable run:
 >
 > ```cmd-session
-> reg add HKLM\Systeinvm\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f
+> reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f
 > ```
 >
 > &#x20;Otherwise we will get the following error.
 >
-> <img src="../../../.gitbook/assets/image (24).png" alt="" data-size="original">
+> <img src="../../../.gitbook/assets/image (8).png" alt="" data-size="original">
 
 
 

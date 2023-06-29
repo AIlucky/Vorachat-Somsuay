@@ -28,6 +28,12 @@ perl —e 'exec "/bin/sh";'
 perl: exec "/bin/sh"; # needs to be ran from a script
 ```
 
+### Python
+
+```bash
+python -c 'import pty; pty.spawn("/bin/bash")'
+```
+
 ### Ruby
 
 **Ruby To Shell**

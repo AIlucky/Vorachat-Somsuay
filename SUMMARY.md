@@ -7,6 +7,8 @@
 * [🌐 Network Enum (Nmap)](cheat-sheets/network-enum-nmap.md)
 * [🔎 Service Enum](cheat-sheets/service-enum/README.md)
   * [FTP \[21\]](cheat-sheets/service-enum/ftp-21.md)
+  * [SMTP \[25\]](cheat-sheets/service-enum/smtp-25.md)
+  * [DNS \[53\]](cheat-sheets/service-enum/dns-53.md)
   * [SMB \[139,445\]](cheat-sheets/service-enum/smb-139-445.md)
   * [NFS \[111,2049\]](cheat-sheets/service-enum/nfs-111-2049.md)
   * [MSSQL \[1433\]](cheat-sheets/service-enum/mssql-1433.md)
@@ -37,7 +39,10 @@
     * [Passwd, Shadow & Opasswd](cheat-sheets/password-attacks/linux-password-attacks/passwd-shadow-and-opasswd.md)
     * [Pass the Ticket (PtT)](cheat-sheets/password-attacks/linux-password-attacks/pass-the-ticket-ptt.md)
   * [Assessment](cheat-sheets/password-attacks/assessment.md)
-* [Attacking common services](cheat-sheets/attacking-common-services.md)
+* [⚙ Attacking common services](cheat-sheets/attacking-common-services/README.md)
+  * [Assessment Easy](cheat-sheets/attacking-common-services/assessment-easy.md)
+  * [Assessment Medium](cheat-sheets/attacking-common-services/assessment-medium.md)
+  * [Assessment Hard](cheat-sheets/attacking-common-services/assessment-hard.md)
 
 ## Writeups
 
