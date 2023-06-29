@@ -9,6 +9,7 @@
   * [FTP \[21\]](cheat-sheets/service-enum/ftp-21.md)
   * [SMB \[139,445\]](cheat-sheets/service-enum/smb-139-445.md)
   * [NFS \[111,2049\]](cheat-sheets/service-enum/nfs-111-2049.md)
+  * [MSSQL \[1433\]](cheat-sheets/service-enum/mssql-1433.md)
   * [MySQL \[3306\]](cheat-sheets/service-enum/mysql-3306.md)
   * [RDP \[3389\]](cheat-sheets/service-enum/rdp-3389.md)
   * [WinRM \[5985,5986\]](cheat-sheets/service-enum/winrm-5985-5986.md)

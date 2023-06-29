@@ -11,7 +11,7 @@ This issue occurs with me all the time and I couldn't figure out why it was happ
 
 This file is found under the directory where the Virtual Machine is located. To fix this issue find the .vmx file and open with your preferred document editor.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>location of .vmx file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>location of .vmx file</p></figcaption></figure>
 
 > Note that the location will vary among different users since the installed virtual machine could be setup differently.
 
@@ -23,7 +23,7 @@ isolation.tools.paste.disable = "FALSE"
 isolation.tools.SetGUIOptions.enable = "TRUE"
 ```
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>added the islation.tools configuration to the .vmx file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>added the islation.tools configuration to the .vmx file</p></figcaption></figure>
 
 Now restart the VMWARE workstation and copy paste should be working.
 
