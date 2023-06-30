@@ -43,14 +43,23 @@
   * [Assessment Easy](cheat-sheets/attacking-common-services/assessment-easy.md)
   * [Assessment Medium](cheat-sheets/attacking-common-services/assessment-medium.md)
   * [Assessment Hard](cheat-sheets/attacking-common-services/assessment-hard.md)
+* [🕳 Pivoting, Tunneling and Port Forwarding.](cheat-sheets/pivoting-tunneling-and-port-forwarding./README.md)
+  * [Dynamic Port Forwarding - SSH \&SOCKS Tunneling](cheat-sheets/pivoting-tunneling-and-port-forwarding./dynamic-port-forwarding-ssh-and-socks-tunneling.md)
+  * [Remote Port Forwording - SSH](cheat-sheets/pivoting-tunneling-and-port-forwarding./remote-port-forwording-ssh.md)
+  * [Meterpreter Tunneling & Port Forwarding](cheat-sheets/pivoting-tunneling-and-port-forwarding./meterpreter-tunneling-and-port-forwarding.md)
+  * [Socat Redirection with a Reverse Shell](cheat-sheets/pivoting-tunneling-and-port-forwarding./socat-redirection-with-a-reverse-shell.md)
+  * [Pivoting Around Obstacles](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/README.md)
+    * [SSH for Windows: plink.exe](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/ssh-for-windows-plink.exe.md)
+    * [SSH Pivoting with Sshuttle](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/ssh-pivoting-with-sshuttle.md)
+    * [Web Server Pivoting with Rpivot](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/web-server-pivoting-with-rpivot.md)
+    * [Port Forwarding with Windows Netsh](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/port-forwarding-with-windows-netsh.md)
 
 ## Writeups
 
 * [💚 Hack The Box](writeups/hack-the-box/README.md)
   * [Shells & Payloads The Live Engagement](writeups/hack-the-box/shells-and-payloads-the-live-engagement.md)
 
-## Blog
+## ETC
 
-* [🧑💻 Some random tech setup](blog/some-random-tech-setup/README.md)
-  * [VMWARE can't copy paste](blog/some-random-tech-setup/vmware-cant-copy-paste.md)
-* [💀 Penetration testing](blog/penetration-testing.md)
+* [🧑💻 Some random tech setup](etc/some-random-tech-setup/README.md)
+  * [VMWARE can't copy paste](etc/some-random-tech-setup/vmware-cant-copy-paste.md)

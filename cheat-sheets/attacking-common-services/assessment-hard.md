@@ -83,7 +83,7 @@ Nmap done: 1 IP address (1 host up) scanned in 389.45 seconds
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 We have access to the smb share and got all the files which seems to be credentials of all of them.
 
@@ -93,7 +93,7 @@ We have access to the smb share and got all the files which seems to be credenti
 
 Tried Fiona with RDP and got the credentials.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Fiona:48Ns72!bns74@S84NNNSl</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Fiona:48Ns72!bns74@S84NNNSl</p></figcaption></figure>
 
 Connected to the RDP session but nothing found. Tried to use the credentials with windows authen to access the mssql
 
@@ -105,23 +105,23 @@ EXECUTE AS LOGIN = 'john'
 
 Realized that in John's SMB there was a file hinting to the impersonation and external database (second database).
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>information.txt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>information.txt</p></figcaption></figure>
 
 Found remote database.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>WINSRV02\SQLEXPRESS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>WINSRV02\SQLEXPRESS</p></figcaption></figure>
 
 But can't select the database server because of the impersonated user are not able to access.
 
 I then realized that I can use the sqlcmd in the rdp session and get the list of users that I could impersonate.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>john and simon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption><p>john and simon</p></figcaption></figure>
 
 user John doesn't have any more privilege than the user Fiona, I tried to use user Simon and it was able to access the database where Fiona and John can't.
 
 Listing the database gave me 2 different users julio and patric.
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
 
 I confirmed that both of them are not users of the operating system so the only option left is database user. I could try to access the database with the following user and try to change the database server.
 
@@ -129,7 +129,7 @@ Sadly both of them were unable to make a new connection to the database.
 
 From the Hint on Hack the box forum I realized that the John user was an admin user but on the linked database. By so I could execute command through that server.
 
-<pre><code>1> EXEC [LOCAL.TEST.LINKED.SRV].master.dbo.sp_configure 'show advanced options', 1;
+<pre class="language-sql"><code class="lang-sql">1> EXEC [LOCAL.TEST.LINKED.SRV].master.dbo.sp_configure 'show advanced options', 1;
 2> go
 Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
 1> EXEC ('RECONFIGURE') AT [LOCAL.TEST.LINKED.SRV];
@@ -143,6 +143,6 @@ Configuration option 'show advanced options' changed from 0 to 1. Run the RECONF
 </strong><strong>2> go
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>flag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>flag</p></figcaption></figure>
 
 This assessment wasn't hard but impossible, given the contents in module, no one who just started the learning path could figure this out without help.
