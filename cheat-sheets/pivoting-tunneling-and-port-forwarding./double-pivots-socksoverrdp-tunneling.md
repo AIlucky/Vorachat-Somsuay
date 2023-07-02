@@ -51,7 +51,7 @@ Proxifier will pivot all our traffic vial localhost:1080, which will tunnel in o
 
 When connecting to multiple clients the connection might bottleneck and causing our connection to fail. To fix that we can access mstsc.exe -> show options -> Experience -> select Modem (56 kbps) and select all the below options.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Basically the summary of this module is when you are the attacker and you got the initial foot hold to one host (windows) and you found another within the foothold network which is also windows then you findout that the second host has a connection to different subnet and you want your first system to be able to connect to the last host.
 

@@ -13,37 +13,37 @@
 
 ## Medium
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>There are 2 service running SSH and SMB</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>There are 2 service running SSH and SMB</p></figcaption></figure>
 
 Check SMB for available shares and privilege.
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>SHAREDRIVE is available</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>SHAREDRIVE is available</p></figcaption></figure>
 
 Connect to share and get the file.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Docs.zip</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Docs.zip</p></figcaption></figure>
 
 The zip requires password.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 The normal password.list didn't work but mut\_password.list worked.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Destiny2022!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Destiny2022!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Documentation.docx</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Documentation.docx</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 We can see there is no database password set and the username is root.
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>jason:C4mNKjAtL2dydsYa6</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>jason:C4mNKjAtL2dydsYa6</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>dennis:7AUgWWQEiMPdqx</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>dennis:7AUgWWQEiMPdqx</p></figcaption></figure>
 
 * Switched user to dennis
 * look at the history
@@ -69,7 +69,7 @@ seems like something was done with the id\_rsa file.
 * cracked the hash
 *   And got the passphrase which doesn't use the same passphrase as dennis (might be root).
 
-    <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>P@ssw0rd12020!</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>P@ssw0rd12020!</p></figcaption></figure>
 
 
 * Then SSH to the system using the id\_rsa file along with the passphrase
@@ -98,17 +98,17 @@ Open 10.129.82.61:49680
 Open 10.129.82.61:49681
 ```
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>johanna:1231234!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p>johanna:1231234!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Download Logins.kdbx and crack it</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Download Logins.kdbx and crack it</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
 
 pass to bitlocker2john and then crack the hash
 
@@ -120,6 +120,6 @@ we got the password **123456789!**
 
 
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>using pth and winrm to get the flag.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p>using pth and winrm to get the flag.</p></figcaption></figure>

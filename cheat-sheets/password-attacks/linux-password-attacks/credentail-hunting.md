@@ -100,9 +100,9 @@ python3 firefox_decrypt.py
 
 ## Assessment
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption><p>kira:L0vey0u1!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>kira:L0vey0u1!</p></figcaption></figure>
 
 Running lazagne.py will give us the following
 
-<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption><p>TUqr7QfLTLhruhVbCP</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>TUqr7QfLTLhruhVbCP</p></figcaption></figure>
 

