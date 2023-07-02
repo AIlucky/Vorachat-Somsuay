@@ -53,6 +53,12 @@
     * [SSH Pivoting with Sshuttle](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/ssh-pivoting-with-sshuttle.md)
     * [Web Server Pivoting with Rpivot](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/web-server-pivoting-with-rpivot.md)
     * [Port Forwarding with Windows Netsh](cheat-sheets/pivoting-tunneling-and-port-forwarding./pivoting-around-obstacles/port-forwarding-with-windows-netsh.md)
+  * [Tunneling](cheat-sheets/pivoting-tunneling-and-port-forwarding./tunneling/README.md)
+    * [DNS Tunneling with Dnscat2](cheat-sheets/pivoting-tunneling-and-port-forwarding./tunneling/dns-tunneling-with-dnscat2.md)
+    * [SOCKS5 Tunneling with Chisel](cheat-sheets/pivoting-tunneling-and-port-forwarding./tunneling/socks5-tunneling-with-chisel.md)
+    * [ICMP Tunneling with SOCKS](cheat-sheets/pivoting-tunneling-and-port-forwarding./tunneling/icmp-tunneling-with-socks.md)
+  * [Double Pivots - SocksOverRDP (Tunneling)](cheat-sheets/pivoting-tunneling-and-port-forwarding./double-pivots-socksoverrdp-tunneling.md)
+  * [Assessment](cheat-sheets/pivoting-tunneling-and-port-forwarding./assessment.md)
 
 ## Writeups
 

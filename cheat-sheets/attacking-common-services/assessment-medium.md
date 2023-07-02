@@ -111,9 +111,9 @@ inlanefreight.htb.      604800  IN      SOA     inlanefreight.htb. root.inlanefr
 
 ## FTP
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>simon:8Ns8j1b!23hs4921smHzwn</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>simon:8Ns8j1b!23hs4921smHzwn</p></figcaption></figure>
 
 * SSH and get the flag.
 

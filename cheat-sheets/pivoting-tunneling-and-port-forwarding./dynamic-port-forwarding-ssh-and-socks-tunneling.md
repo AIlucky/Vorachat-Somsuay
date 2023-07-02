@@ -109,10 +109,10 @@ proxychains xfreerdp /v:172.16.5.19 /u:victor /p:pass@123
   ```
 * Edited proxychains file and enable listening at port 9050.
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Dynamic port-forwarding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Dynamic port-forwarding</p></figcaption></figure>
 
 Apply the concepts taught in this section to pivot to the internal network and use RDP (credentials: victor:pass@123) to take control of the Windows target on 172.16.5.19. Submit the contents of Flag.txt located on the Desktop.
 
 * Ran xfreerdp with proxychains. `proxychains xfreerdp /v:172.16.5.19 /u:victor /p:pass@123`
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>xfreerdp with proxychains and found the flag.txt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>xfreerdp with proxychains and found the flag.txt</p></figcaption></figure>

@@ -6,7 +6,7 @@ description: To forward a local service to the remote port
 
 ## Introduction
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="Basic diagram to explain below&#x27;s concept." class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="Basic diagram to explain below&#x27;s concept." class="gitbook-drawing">
 
 In a scenario where we got the access to target `host1` and perform dynamic port forwarding to connect to RDP running on the `host2`, if we try to transfer files, use exploits, or even performing a reverse shell, these teqniques won't work since the `host2` doesn't know the attack host.
 
