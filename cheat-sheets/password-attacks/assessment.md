@@ -25,7 +25,7 @@ Connect to share and get the file.
 
 The zip requires password.
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 The normal password.list didn't work but mut\_password.list worked.
 
@@ -108,7 +108,7 @@ Open 10.129.82.61:49681
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
 
 pass to bitlocker2john and then crack the hash
 

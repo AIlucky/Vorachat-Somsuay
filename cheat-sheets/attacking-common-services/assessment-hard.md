@@ -121,7 +121,7 @@ user John doesn't have any more privilege than the user Fiona, I tried to use us
 
 Listing the database gave me 2 different users julio and patric.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
 
 I confirmed that both of them are not users of the operating system so the only option left is database user. I could try to access the database with the following user and try to change the database server.
 

