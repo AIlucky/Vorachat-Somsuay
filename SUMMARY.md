@@ -74,6 +74,15 @@
   * [Deeper Dive](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/README.md)
     * [Enumerating Security Controls](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/enumerating-security-controls.md)
     * [Credentialed Enumeration - from Linux](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/credentialed-enumeration-from-linux.md)
+    * [Credentialed Enumeration - from Windows](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/credentialed-enumeration-from-windows.md)
+    * [Living Off the Land](cheat-sheets/active-directory-enumeration-and-attacks/deeper-dive/living-off-the-land.md)
+  * [Kerberoasting](cheat-sheets/active-directory-enumeration-and-attacks/kerberoasting/README.md)
+    * [Linux - Kerberoasting](cheat-sheets/active-directory-enumeration-and-attacks/kerberoasting/linux-kerberoasting.md)
+    * [Windows - Kerberoasting](cheat-sheets/active-directory-enumeration-and-attacks/kerberoasting/windows-kerberoasting.md)
+  * [Access Control Entities](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/README.md)
+    * [ACL Enumeration](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/acl-enumeration.md)
+    * [ACL Abuse Tactics](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/acl-abuse-tactics.md)
+    * [DCSync](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/dcsync.md)
 
 ## Writeups
 

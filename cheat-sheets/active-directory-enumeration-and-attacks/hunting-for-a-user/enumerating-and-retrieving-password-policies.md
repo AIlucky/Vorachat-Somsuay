@@ -259,7 +259,7 @@ What is the default Minimum password length when a new domain is created?
 
 What is the minPwdLength set to in the INLANEFREIGHT.LOCAL domain?
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>8</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>8</p></figcaption></figure>
 
 
 

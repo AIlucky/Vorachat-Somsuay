@@ -21,7 +21,7 @@ Wireshark and TCPDump are useful to capture network traffic and gain types of ne
 
 #### **Wireshark**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>ARP gives us the hosts IP.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>ARP gives us the hosts IP.</p></figcaption></figure>
 
 #### **Tcpdump**
 
@@ -56,7 +56,7 @@ fping -asgq 172.16.5.0/23
 * g -> generate target list form CIDR network
 * q -> not show per-target results
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>3 hosts alive</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>3 hosts alive</p></figcaption></figure>
 
 #### **Nmap**
 

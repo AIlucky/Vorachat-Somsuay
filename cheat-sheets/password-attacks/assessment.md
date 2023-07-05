@@ -41,7 +41,7 @@ We can see there is no database password set and the username is root.
 
 <figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>jason:C4mNKjAtL2dydsYa6</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>dennis:7AUgWWQEiMPdqx</p></figcaption></figure>
 

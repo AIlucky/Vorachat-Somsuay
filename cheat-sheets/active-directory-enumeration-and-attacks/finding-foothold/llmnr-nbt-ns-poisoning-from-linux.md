@@ -90,7 +90,7 @@ sudo responder -I ens224
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>backupagent:h1backup55</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>WLEY:transporter@4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p>WLEY:transporter@4</p></figcaption></figure>
 
 
 

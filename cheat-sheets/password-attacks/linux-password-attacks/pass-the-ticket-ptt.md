@@ -325,7 +325,7 @@ Check Carlos' crontab, and look for keytabs to which Carlos has access. Try to g
 
 Check svc\_workstation's sudo privileges and get access as root. Submit the flag in /root/flag.txt directory as the response.
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 Check the /tmp directory and find Julio's Kerberos ticket (ccache file). Import the ticket and read the contents of julio.txt from the domain share folder \DC01\julio.
 
