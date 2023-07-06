@@ -83,6 +83,14 @@
     * [ACL Enumeration](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/acl-enumeration.md)
     * [ACL Abuse Tactics](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/acl-abuse-tactics.md)
     * [DCSync](cheat-sheets/active-directory-enumeration-and-attacks/access-control-entities/dcsync.md)
+  * [Stacking The Deck](cheat-sheets/active-directory-enumeration-and-attacks/stacking-the-deck/README.md)
+    * [Privileged Access](cheat-sheets/active-directory-enumeration-and-attacks/stacking-the-deck/privileged-access.md)
+    * [Kerberos "Double Hop" Problem](cheat-sheets/active-directory-enumeration-and-attacks/stacking-the-deck/kerberos-double-hop-problem.md)
+    * [Bleeding Edge Vulnerabilities](cheat-sheets/active-directory-enumeration-and-attacks/stacking-the-deck/bleeding-edge-vulnerabilities.md)
+    * [Misconfig](cheat-sheets/active-directory-enumeration-and-attacks/stacking-the-deck/misconfig.md)
+  * [Assessment](cheat-sheets/active-directory-enumeration-and-attacks/assessment/README.md)
+    * [AD Enumeration & Attacks - Skills Assessment Part I](cheat-sheets/active-directory-enumeration-and-attacks/assessment/ad-enumeration-and-attacks-skills-assessment-part-i.md)
+    * [AD Enumeration & Attacks - Skills Assessment Part II](cheat-sheets/active-directory-enumeration-and-attacks/assessment/ad-enumeration-and-attacks-skills-assessment-part-ii.md)
 
 ## Writeups
 

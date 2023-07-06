@@ -78,7 +78,7 @@ sudo ./chisel server --reverse -v -p 1234 --socks5
 **Editing & Confirming proxychains.conf**
 
 ```shell-session
-tail -f /etc/proxychains.conf 
+tail -f /etc/proxychains4.conf 
 
 [ProxyList]
 # add proxy here ...

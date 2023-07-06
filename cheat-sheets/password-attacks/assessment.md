@@ -13,7 +13,7 @@
 
 ## Medium
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>There are 2 service running SSH and SMB</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>There are 2 service running SSH and SMB</p></figcaption></figure>
 
 Check SMB for available shares and privilege.
 
@@ -29,19 +29,19 @@ The zip requires password.
 
 The normal password.list didn't work but mut\_password.list worked.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Destiny2022!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>Destiny2022!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Documentation.docx</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>Documentation.docx</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can see there is no database password set and the username is root.
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>jason:C4mNKjAtL2dydsYa6</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74) (1).png" alt=""><figcaption><p>jason:C4mNKjAtL2dydsYa6</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>dennis:7AUgWWQEiMPdqx</p></figcaption></figure>
 
@@ -98,15 +98,15 @@ Open 10.129.82.61:49680
 Open 10.129.82.61:49681
 ```
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p>johanna:1231234!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52) (1).png" alt=""><figcaption><p>johanna:1231234!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Download Logins.kdbx and crack it</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p>Download Logins.kdbx and crack it</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
 
@@ -120,6 +120,6 @@ we got the password **123456789!**
 
 
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p>using pth and winrm to get the flag.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60) (1).png" alt=""><figcaption><p>using pth and winrm to get the flag.</p></figcaption></figure>

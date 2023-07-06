@@ -165,7 +165,7 @@ PS C:\htb> .\Snaffler.exe  -d INLANEFREIGHT.LOCAL -s -v data
 * \-o -> write results to logfile (-o output.log)
 * \-v data -> verbosity level (only display results on screen)
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>snaffler in action</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption><p>snaffler in action</p></figcaption></figure>
 
 We may find passwords, SSH keys, configuration files, or other data that can be used to further our access.
 
@@ -179,7 +179,7 @@ running the SharpHound.exe collector from the MS01 attack host.
 PS C:\htb> .\SharpHound.exe -c All --zipfilename ILFREIGHT
 ```
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 **To run blood hound on our attack machine**
 
@@ -212,7 +212,7 @@ Collect information to be passed into bloodhound
 PS C:\htb> .\Snaffler.exe  -d INLANEFREIGHT.LOCAL -s -v data
 ```
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>13 Kerberoastable Accounts</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>13 Kerberoastable Accounts</p></figcaption></figure>
 
 **What PowerView function allows us to test if a user has administrative access to a local or remote host?**
 

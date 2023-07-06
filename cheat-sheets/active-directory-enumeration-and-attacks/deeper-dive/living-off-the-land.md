@@ -242,11 +242,11 @@ A lot can be done with UAC filters, operators, and attribute matching with OID r
 
 **Enumerate the host's security configuration information and return the hosts AMProductVersion.**
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>4.18.2109.6</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption><p>4.18.2109.6</p></figcaption></figure>
 
 **What domain user is explicitly listed as a member of the local Administrators group on the target host?**
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>adunn</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>adunn</p></figcaption></figure>
 
 **Utilizing techniques learned in this section, find the flag hidden in the description field of a disabled account with administrative privileges. Submit the flag as the answer.**
 
@@ -254,9 +254,9 @@ A lot can be done with UAC filters, operators, and attribute matching with OID r
 dsquery * -filter "(userAccountControl:1.2.840.113556.1.4.803:=2)"
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>bross -> betty ross</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>bross -> betty ross</p></figcaption></figure>
 
 
 

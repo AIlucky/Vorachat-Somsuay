@@ -21,7 +21,7 @@ Wireshark and TCPDump are useful to capture network traffic and gain types of ne
 
 #### **Wireshark**
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>ARP gives us the hosts IP.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>ARP gives us the hosts IP.</p></figcaption></figure>
 
 #### **Tcpdump**
 
@@ -39,7 +39,7 @@ pktmon.exe -> for windows 10 host. And remember to save the pcap traffic.
 sudo responder -I ens224 -A 
 ```
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>responder passive analysis mode.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>responder passive analysis mode.</p></figcaption></figure>
 
 Responder might find more unique hosts from wireshark.
 
@@ -56,7 +56,7 @@ fping -asgq 172.16.5.0/23
 * g -> generate target list form CIDR network
 * q -> not show per-target results
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>3 hosts alive</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>3 hosts alive</p></figcaption></figure>
 
 #### **Nmap**
 
@@ -180,7 +180,7 @@ sudo mv kerbrute_linux_amd64 /usr/local/bin/kerbrute
 kerbrute userenum -d INLANEFREIGHT.LOCAL --dc 172.16.5.5 jsmith.txt -o valid_ad_users
 ```
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption><p>56 valid usernames</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption><p>56 valid usernames</p></figcaption></figure>
 
 ### Identifying Potential Vulnerabilities
 

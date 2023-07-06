@@ -93,7 +93,7 @@ We have access to the smb share and got all the files which seems to be credenti
 
 Tried Fiona with RDP and got the credentials.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Fiona:48Ns72!bns74@S84NNNSl</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption><p>Fiona:48Ns72!bns74@S84NNNSl</p></figcaption></figure>
 
 Connected to the RDP session but nothing found. Tried to use the credentials with windows authen to access the mssql
 
@@ -109,7 +109,7 @@ Realized that in John's SMB there was a file hinting to the impersonation and ex
 
 Found remote database.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>WINSRV02\SQLEXPRESS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p>WINSRV02\SQLEXPRESS</p></figcaption></figure>
 
 But can't select the database server because of the impersonated user are not able to access.
 
@@ -121,7 +121,7 @@ user John doesn't have any more privilege than the user Fiona, I tried to use us
 
 Listing the database gave me 2 different users julio and patric.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
 
 I confirmed that both of them are not users of the operating system so the only option left is database user. I could try to access the database with the following user and try to change the database server.
 
@@ -143,6 +143,6 @@ Configuration option 'show advanced options' changed from 0 to 1. Run the RECONF
 </strong><strong>2> go
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>flag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>flag</p></figcaption></figure>
 
 This assessment wasn't hard but impossible, given the contents in module, no one who just started the learning path could figure this out without help.

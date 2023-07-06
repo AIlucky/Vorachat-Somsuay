@@ -6,9 +6,9 @@
 
 Seems to be a Linux host running on this system and there are 2 interfaces as below.
 
-<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p>another network segment that we could use to pivot.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption><p>another network segment that we could use to pivot.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>mlefay:Plain Human work!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>mlefay:Plain Human work!</p></figcaption></figure>
 
 I decided to get a reverse shell for more control over the foothold sytem.
 
@@ -24,7 +24,7 @@ Next I will try to dynamic port forward with ssh.
 
 Then perform nmap scan to find the host that are up.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>172.16.5.35</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption><p>172.16.5.35</p></figcaption></figure>
 
 ## Scan Host2
 
@@ -120,7 +120,7 @@ All the above settings is just to set the permission of the id\_rsa file `chmod 
 
 <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>make sure the orders are correct because Windows is trash.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Transfer file from pivot host to </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Transfer file from pivot host to </p></figcaption></figure>
 
 using `pypykatz lsa minidump lsass.dmp` we found the user `vfrank:Imply wet Unmasked!`
 
@@ -171,7 +171,7 @@ for /L %i in (1,1,255) do @ping -n 1 -w 200 172.16.6.%i > nul && echo 172.16.6.%
 
 and we found the following address
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption><p>172.16.6.25</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (75) (1).png" alt=""><figcaption><p>172.16.6.25</p></figcaption></figure>
 
 Since 172.16.6.35 is our address we can ignore that and focus on 172.16.6.25
 

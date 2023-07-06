@@ -4,7 +4,7 @@ Kerberoasting is a privilege escalation technique in AD environments, which atta
 
 SPN is a unique id that Kerberos use to map service with service account (whose context the service is running.)
 
-* Any domain user can request a Kerberos ticket for any service account in the same domain
+* **Any domain user can request a Kerberos ticket** for any service account in the same domain
 * All you need to perform a Kerberoasting attack are one of the following
   * account's cleartext password (or NTLM hash)
   * a shell in the context of a domain user account

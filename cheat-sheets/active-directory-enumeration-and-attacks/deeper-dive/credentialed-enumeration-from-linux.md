@@ -15,7 +15,7 @@ sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --users
 output will be groups eg. Administrators, Users, Guests, Print Operators, Backup Operators, Replicator, etc.
 
 ```shell-session
-carbonlky@htb[/htb]$ sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
+sudo crackmapexec smb 172.16.5.5 -u forend -p Klmcargo2 --groups
 ```
 
 **CME - Logged On Users**

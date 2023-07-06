@@ -8,13 +8,13 @@ What username is available for the FTP server?
 
 * I used the wordlist from ftp **anonymous** and get the username and password list.
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### SMB
 
 What is the name of the shared folder with READ permissions?
 
-<figure><img src="../../.gitbook/assets/image (68) (1).png" alt=""><figcaption><p>GGJ</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>GGJ</p></figcaption></figure>
 
 What is the password for the username "jason"?
 
@@ -58,7 +58,7 @@ Which registry key needs to be changed to allow Pass-the-Hash with the RDP proto
 
 Connect via RDP with the Administrator account and submit the flag.txt as you answer.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Administrator:0E14B9D6330BF16C30B1924111104824</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (2).png" alt=""><figcaption><p>Administrator:0E14B9D6330BF16C30B1924111104824</p></figcaption></figure>
 
 1. `reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f`
 2. `xfreerdp /v:10.129.203.13 /u:Administrator /pth:0E14B9D6330BF16C30B1924111104824 /dynamic-resolution`
@@ -68,7 +68,7 @@ Connect via RDP with the Administrator account and submit the flag.txt as you an
 
 Find all available DNS records for the "inlanefreight.htb" domain on the target name server and submit the flag found as a DNS record as the answer.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 * used subbrute to enum the subdomain.
 * found hr.inlanefreight.htb.
@@ -85,7 +85,7 @@ What is the available username for the domain inlanefreight.htb in the SMTP serv
 
 Access the email account using the user credentials that you discovered and submit the flag in the email as your answer.
 
-<figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption><p>marlin@inlanefreight.htb:poohbear</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58) (1) (1).png" alt=""><figcaption><p>marlin@inlanefreight.htb:poohbear</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
