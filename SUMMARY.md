@@ -9,6 +9,7 @@
   * [FTP \[21\]](cheat-sheets/service-enum/ftp-21.md)
   * [SMTP \[25\]](cheat-sheets/service-enum/smtp-25.md)
   * [DNS \[53\]](cheat-sheets/service-enum/dns-53.md)
+  * [HTTP(S) \[80,443\]](cheat-sheets/service-enum/http-s-80-443.md)
   * [SMB \[139,445\]](cheat-sheets/service-enum/smb-139-445.md)
   * [NFS \[111,2049\]](cheat-sheets/service-enum/nfs-111-2049.md)
   * [MSSQL \[1433\]](cheat-sheets/service-enum/mssql-1433.md)

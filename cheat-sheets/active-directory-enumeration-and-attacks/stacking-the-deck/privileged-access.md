@@ -218,7 +218,7 @@ NULL
 
 What other user in the domain has CanPSRemote rights to a host?
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>bdavis@inlanefreight.local</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>bdavis@inlanefreight.local</p></figcaption></figure>
 
 What host can this user access via WinRM? (just the computer name)
 

