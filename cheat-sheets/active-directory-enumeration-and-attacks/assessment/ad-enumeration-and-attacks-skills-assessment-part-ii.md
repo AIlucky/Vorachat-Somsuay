@@ -308,7 +308,7 @@ BR086@inlanefreight.local:Welcome1
 
 **Locate a configuration file containing an MSSQL connection string. What is the password for the user listed in this file?**
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>We can see that in smb share there is a config file that this user has access to has a password</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>We can see that in smb share there is a config file that this user has access to has a password</p></figcaption></figure>
 
 netdb:D@ta\_bAse\_adm1n!
 
@@ -318,11 +318,11 @@ netdb:D@ta\_bAse\_adm1n!
 .\mssqlclient.exe INLANEFREIGHT.LOCAL/netdb:'D@ta_bAse_adm1n!'@172.16.7.60
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
 
 Seems like the xp\_cmdshell is working without enabling it
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>service\mssql$sqlexpress</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>service\mssql$sqlexpress</p></figcaption></figure>
 
 Since we can execute commands through xp\_cmdshell, we can try to move file overthere and try getting reverse shell.
 
@@ -334,7 +334,7 @@ Start python server at linux attack machine where the nc.exe is present
 
 Don't forget to run nc -lvnp 4444 at the attack host.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>got the shell</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>got the shell</p></figcaption></figure>
 
 Since the seImpersonate was enabled there are few vulnerabilities that we could try. We can check if the system is vulnerable to juicy potato attack
 
@@ -460,25 +460,25 @@ Supplemental Credentials:
       des_cbc_md5       : 61299e7a768fa2d5
 ```
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>exc3ss1ve_adm1n_r1ights!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>exc3ss1ve_adm1n_r1ights!</p></figcaption></figure>
 
 **Obtain credentials for a user who has GenericAll rights over the Domain Admins group. What this user's account name?**
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
 
 **Crack this user's password hash and submit the cleartext password as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>CT059:charlie1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>CT059:charlie1</p></figcaption></figure>
 
 **Submit the contents of the flag.txt file on the Administrator desktop on the DC01 host.**
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 **Submit the NTLM hash for the KRBTGT account for the target domain after achieving domain compromise.**
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (4).png>)
 

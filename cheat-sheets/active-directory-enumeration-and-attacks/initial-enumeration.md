@@ -21,7 +21,7 @@ Wireshark and TCPDump are useful to capture network traffic and gain types of ne
 
 #### **Wireshark**
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption><p>ARP gives us the hosts IP.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (78) (2).png" alt=""><figcaption><p>ARP gives us the hosts IP.</p></figcaption></figure>
 
 #### **Tcpdump**
 

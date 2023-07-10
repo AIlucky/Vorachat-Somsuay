@@ -183,4 +183,4 @@ next we found another interface on this machine and seems like we have to perfor
 
 It was not the case here. I found the flag in the C directory where the DC admin files system was already mounted lol
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

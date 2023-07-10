@@ -114,7 +114,7 @@ $krb5tgs$23$*SAPService$INLANEFREIGHT.LOCAL$INLANEFREIGHT.LOCAL/SAPService*$54b8
 
 **What powerful local group on the Domain Controller is the SAPService user a member of?**
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption><p>Account Operators</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (76) (2).png" alt=""><figcaption><p>Account Operators</p></figcaption></figure>
 
 
 

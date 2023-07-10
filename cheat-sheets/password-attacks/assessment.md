@@ -106,7 +106,7 @@ Open 10.129.82.61:49681
 
 <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
 
@@ -120,6 +120,6 @@ we got the password **123456789!**
 
 
 
-<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (60) (1).png" alt=""><figcaption><p>using pth and winrm to get the flag.</p></figcaption></figure>

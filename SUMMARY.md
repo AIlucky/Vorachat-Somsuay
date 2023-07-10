@@ -92,6 +92,17 @@
   * [Assessment](cheat-sheets/active-directory-enumeration-and-attacks/assessment/README.md)
     * [AD Enumeration & Attacks - Skills Assessment Part I](cheat-sheets/active-directory-enumeration-and-attacks/assessment/ad-enumeration-and-attacks-skills-assessment-part-i.md)
     * [AD Enumeration & Attacks - Skills Assessment Part II](cheat-sheets/active-directory-enumeration-and-attacks/assessment/ad-enumeration-and-attacks-skills-assessment-part-ii.md)
+* [💉 SQL Injection](cheat-sheets/sql-injection/README.md)
+  * [Intro to SQL Injections](cheat-sheets/sql-injection/intro-to-sql-injections.md)
+  * [Subverting Query Logic](cheat-sheets/sql-injection/subverting-query-logic.md)
+  * [Union Clause & Injection](cheat-sheets/sql-injection/union-clause-and-injection.md)
+  * [Database Enumeration](cheat-sheets/sql-injection/database-enumeration.md)
+  * [Read & Write Files](cheat-sheets/sql-injection/read-and-write-files.md)
+  * [Assessment](cheat-sheets/sql-injection/assessment.md)
+* [📄 File Inclusion](cheat-sheets/file-inclusion/README.md)
+  * [File Upload](cheat-sheets/file-inclusion/file-upload.md)
+  * [Log Poisoning](cheat-sheets/file-inclusion/log-poisoning.md)
+  * [Assessment](cheat-sheets/file-inclusion/assessment.md)
 
 ## Writeups
 

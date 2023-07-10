@@ -301,7 +301,7 @@ $ /opt/linikatz.sh
 
 Connect to the target machine using SSH to the port TCP/2222 and the provided credentials. Read the flag in David's home directory.
 
-<figure><img src="../../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Which group can connect to LINUX01?
 
@@ -313,7 +313,7 @@ Look for a keytab file that you have read and write access. Submit the file name
 
 Extract the hashes from the keytab file you found, crack the password, log in as the user and submit the flag in the user's home directory.
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (78) (1).png" alt=""><figcaption></figcaption></figure>
 

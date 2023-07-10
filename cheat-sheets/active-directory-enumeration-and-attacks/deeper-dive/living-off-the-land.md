@@ -256,7 +256,7 @@ dsquery * -filter "(userAccountControl:1.2.840.113556.1.4.803:=2)"
 
 <figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (81).png" alt=""><figcaption><p>bross -> betty ross</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (81) (1).png" alt=""><figcaption><p>bross -> betty ross</p></figcaption></figure>
 
 
 
