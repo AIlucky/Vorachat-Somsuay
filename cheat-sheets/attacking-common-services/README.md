@@ -8,7 +8,7 @@ What username is available for the FTP server?
 
 * I used the wordlist from ftp **anonymous** and get the username and password list.
 
-<figure><img src="../../.gitbook/assets/image (79) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### SMB
 
@@ -68,7 +68,7 @@ Connect via RDP with the Administrator account and submit the flag.txt as you an
 
 Find all available DNS records for the "inlanefreight.htb" domain on the target name server and submit the flag found as a DNS record as the answer.
 
-<figure><img src="../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * used subbrute to enum the subdomain.
 * found hr.inlanefreight.htb.

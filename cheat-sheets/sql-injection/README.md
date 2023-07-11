@@ -13,7 +13,7 @@ Databases, in general, are categorized into `Relational Databases` and `Non-Rela
 * Many types of databases now implement the RDBMS concept
   * Microsoft Access, MySQL, SQL Server, Oracle, PostgreSQL, etc.
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption><p>The relationship between tables within a database is called a Schema.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89) (1).png" alt=""><figcaption><p>The relationship between tables within a database is called a Schema.</p></figcaption></figure>
 
 ### Non-relational Databases
 

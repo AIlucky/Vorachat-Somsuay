@@ -110,6 +110,14 @@
 * [🪡 Command Injection](cheat-sheets/command-injection/README.md)
   * [Exploitation](cheat-sheets/command-injection/exploitation.md)
   * [Filter Evasion](cheat-sheets/command-injection/filter-evasion.md)
+* [🕷 Web Attacks](cheat-sheets/web-attacks/README.md)
+  * [HTTP Verb Tampering](cheat-sheets/web-attacks/http-verb-tampering/README.md)
+    * [Bypass Basic Authentication](cheat-sheets/web-attacks/http-verb-tampering/bypass-basic-authentication.md)
+    * [Bypassing Security Filters](cheat-sheets/web-attacks/http-verb-tampering/bypassing-security-filters.md)
+  * [IDOR](cheat-sheets/web-attacks/idor/README.md)
+    * [Mass IDOR Enumeration](cheat-sheets/web-attacks/idor/mass-idor-enumeration.md)
+    * [Bypassing Encoded References](cheat-sheets/web-attacks/idor/bypassing-encoded-references.md)
+    * [IDOR in Insecure APIs](cheat-sheets/web-attacks/idor/idor-in-insecure-apis.md)
 
 ## Writeups
 
