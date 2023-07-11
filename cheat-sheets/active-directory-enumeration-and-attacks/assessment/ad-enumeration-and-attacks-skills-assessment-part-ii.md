@@ -318,11 +318,11 @@ netdb:D@ta\_bAse\_adm1n!
 .\mssqlclient.exe INLANEFREIGHT.LOCAL/netdb:'D@ta_bAse_adm1n!'@172.16.7.60
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
 
 Seems like the xp\_cmdshell is working without enabling it
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>service\mssql$sqlexpress</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>service\mssql$sqlexpress</p></figcaption></figure>
 
 Since we can execute commands through xp\_cmdshell, we can try to move file overthere and try getting reverse shell.
 
@@ -358,7 +358,7 @@ juicy potato requries CLSRid which for me seems to be hard to get and can't expl
 nc -lvnp 2012
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>nt authority\system</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>nt authority\system</p></figcaption></figure>
 
 s3imp3rs0nate\_cl@ssic
 
@@ -460,25 +460,25 @@ Supplemental Credentials:
       des_cbc_md5       : 61299e7a768fa2d5
 ```
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>exc3ss1ve_adm1n_r1ights!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>exc3ss1ve_adm1n_r1ights!</p></figcaption></figure>
 
 **Obtain credentials for a user who has GenericAll rights over the Domain Admins group. What this user's account name?**
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
 
 **Crack this user's password hash and submit the cleartext password as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>CT059:charlie1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>CT059:charlie1</p></figcaption></figure>
 
 **Submit the contents of the flag.txt file on the Administrator desktop on the DC01 host.**
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Submit the NTLM hash for the KRBTGT account for the target domain after achieving domain compromise.**
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 

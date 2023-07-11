@@ -103,6 +103,13 @@
   * [File Upload](cheat-sheets/file-inclusion/file-upload.md)
   * [Log Poisoning](cheat-sheets/file-inclusion/log-poisoning.md)
   * [Assessment](cheat-sheets/file-inclusion/assessment.md)
+* [⬆ File Upload](cheat-sheets/file-upload/README.md)
+  * [Basic Exploit](cheat-sheets/file-upload/basic-exploit.md)
+  * [Bypassing filters](cheat-sheets/file-upload/bypassing-filters.md)
+  * [Limited File Uploads](cheat-sheets/file-upload/limited-file-uploads.md)
+* [🪡 Command Injection](cheat-sheets/command-injection/README.md)
+  * [Exploitation](cheat-sheets/command-injection/exploitation.md)
+  * [Filter Evasion](cheat-sheets/command-injection/filter-evasion.md)
 
 ## Writeups
 
