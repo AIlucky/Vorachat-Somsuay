@@ -68,7 +68,7 @@ done
 
 get a list of documents of the first 20 user uid's in /documents.php, one of which should have a '.txt' file with the flag.
 
-<figure><img src="../../../.gitbook/assets/image (95).png" alt=""><figcaption><p>Send request to intruder</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (95) (1).png" alt=""><figcaption><p>Send request to intruder</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>payload 1-20</p></figcaption></figure>
 

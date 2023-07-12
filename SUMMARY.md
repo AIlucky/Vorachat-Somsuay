@@ -118,6 +118,13 @@
     * [Mass IDOR Enumeration](cheat-sheets/web-attacks/idor/mass-idor-enumeration.md)
     * [Bypassing Encoded References](cheat-sheets/web-attacks/idor/bypassing-encoded-references.md)
     * [IDOR in Insecure APIs](cheat-sheets/web-attacks/idor/idor-in-insecure-apis.md)
+    * [Chaining IDOR](cheat-sheets/web-attacks/idor/chaining-idor.md)
+  * [XXE](cheat-sheets/web-attacks/xxe/README.md)
+    * [Local File Disclosure](cheat-sheets/web-attacks/xxe/local-file-disclosure.md)
+    * [Advanced File Disclosure](cheat-sheets/web-attacks/xxe/advanced-file-disclosure.md)
+    * [Blind Data Exfiltration](cheat-sheets/web-attacks/xxe/blind-data-exfiltration.md)
+    * [Skills Assessment](cheat-sheets/web-attacks/xxe/skills-assessment.md)
+* [⚙ Attacking Common Applications](cheat-sheets/attacking-common-applications.md)
 
 ## Writeups
 

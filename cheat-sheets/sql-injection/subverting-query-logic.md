@@ -117,7 +117,7 @@ Final query
 <pre class="language-sql"><code class="lang-sql"><strong>SELECT * FROM logins WHERE (username='adasdfmin') OR id = 5 -- -' AND id > 1) AND password = 'xxx';
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (95) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

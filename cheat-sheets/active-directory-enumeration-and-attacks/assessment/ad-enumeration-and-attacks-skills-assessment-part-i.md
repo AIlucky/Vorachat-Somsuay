@@ -16,7 +16,7 @@ Apply what you learned in this module to compromise the domain and answer the qu
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>svc_sql</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (60) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Crack the account's password. Submit the cleartext value.**
 

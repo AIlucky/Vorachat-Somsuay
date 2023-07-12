@@ -105,7 +105,7 @@ EXECUTE AS LOGIN = 'john'
 
 Realized that in John's SMB there was a file hinting to the impersonation and external database (second database).
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>information.txt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61) (1).png" alt=""><figcaption><p>information.txt</p></figcaption></figure>
 
 Found remote database.
 
