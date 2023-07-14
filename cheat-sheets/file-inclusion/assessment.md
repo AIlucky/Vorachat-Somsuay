@@ -16,7 +16,7 @@ view-source:http://46.101.95.166:30586/index.php?page=php://filter/read=convert.
 
 <figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>log parameter seems to be including files</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>included file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (3).png" alt=""><figcaption><p>included file</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>No session values found so is not php session poisoning</p></figcaption></figure>
 

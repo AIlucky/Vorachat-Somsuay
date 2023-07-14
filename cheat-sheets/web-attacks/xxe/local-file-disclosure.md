@@ -132,7 +132,7 @@ Once sent we will get the recieve message for shell.php file in our console and 
 
 Try to read the content of the 'connection.php' file, and submit the value of the 'api\_key' as the answer.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>email element is the target</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>email element is the target</p></figcaption></figure>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -147,4 +147,4 @@ Try to read the content of the 'connection.php' file, and submit the value of th
 </root>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption><p>UTM1NjM0MmRzJ2dmcTIzND0wMXJnZXdmc2RmCg</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>UTM1NjM0MmRzJ2dmcTIzND0wMXJnZXdmc2RmCg</p></figcaption></figure>

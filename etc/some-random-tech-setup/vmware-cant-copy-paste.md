@@ -23,7 +23,7 @@ isolation.tools.paste.disable = "FALSE"
 isolation.tools.SetGUIOptions.enable = "TRUE"
 ```
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>added the islation.tools configuration to the .vmx file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption><p>added the islation.tools configuration to the .vmx file</p></figcaption></figure>
 
 Now restart the VMWARE workstation and copy paste should be working.
 

@@ -2,7 +2,7 @@
 
 ## Enumeration
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>webadmin</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption><p>webadmin</p></figcaption></figure>
 
 Seems to be a Linux host running on this system and there are 2 interfaces as below.
 

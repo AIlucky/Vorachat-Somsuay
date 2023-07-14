@@ -49,7 +49,7 @@ We can try to
 3. Create new users with arbitrary details, or delete existing users
 4. Change our role to a more privileged role (e.g. `admin`) to be able to perform more action
 
-<figure><img src="../../../.gitbook/assets/image (96) (1).png" alt=""><figcaption><p>Assessment</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (96).png" alt=""><figcaption><p>Assessment</p></figcaption></figure>
 
 
 

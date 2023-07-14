@@ -61,7 +61,7 @@ PORT     STATE    SERVICE     VERSION
 |_  Auth Plugin Name: mysql_native_password
 ```
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>fiona@inlanefreight.htb</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p>fiona@inlanefreight.htb</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (47) (1).png" alt=""><figcaption><p>fiona@inlanefreight.htb:987654321</p></figcaption></figure>
 

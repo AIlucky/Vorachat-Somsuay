@@ -17,7 +17,7 @@
 
 Check SMB for available shares and privilege.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>SHAREDRIVE is available</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>SHAREDRIVE is available</p></figcaption></figure>
 
 Connect to share and get the file.
 
@@ -106,7 +106,7 @@ Open 10.129.82.61:49681
 
 <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
 

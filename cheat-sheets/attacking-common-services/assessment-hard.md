@@ -105,7 +105,7 @@ EXECUTE AS LOGIN = 'john'
 
 Realized that in John's SMB there was a file hinting to the impersonation and external database (second database).
 
-<figure><img src="../../.gitbook/assets/image (61) (1).png" alt=""><figcaption><p>information.txt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>information.txt</p></figcaption></figure>
 
 Found remote database.
 
@@ -115,13 +115,13 @@ But can't select the database server because of the impersonated user are not ab
 
 I then realized that I can use the sqlcmd in the rdp session and get the list of users that I could impersonate.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>john and simon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>john and simon</p></figcaption></figure>
 
 user John doesn't have any more privilege than the user Fiona, I tried to use user Simon and it was able to access the database where Fiona and John can't.
 
 Listing the database gave me 2 different users julio and patric.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>julio and patric</p></figcaption></figure>
 
 I confirmed that both of them are not users of the operating system so the only option left is database user. I could try to access the database with the following user and try to change the database server.
 
