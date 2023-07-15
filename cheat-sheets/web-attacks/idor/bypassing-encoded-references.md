@@ -82,6 +82,6 @@ to encode the value we have to perfrom in reverse
 
 `value > Base64 > URL encode`
 
-<figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption><p>Use burp to generate 1-20 number then encode them using payload processing</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (85) (1).png" alt=""><figcaption><p>Use burp to generate 1-20 number then encode them using payload processing</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Look for most different request then check response</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>Look for most different request then check response</p></figcaption></figure>

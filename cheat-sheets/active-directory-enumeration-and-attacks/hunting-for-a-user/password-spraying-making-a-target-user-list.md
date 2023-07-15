@@ -184,5 +184,5 @@ Enumerate valid usernames using Kerbrute and the wordlist located at /opt/jsmith
 kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption><p>56 valid users</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77) (1).png" alt=""><figcaption><p>56 valid users</p></figcaption></figure>
 

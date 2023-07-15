@@ -117,8 +117,8 @@ The user `kevin` appears to be a support agent but does not have any open ticket
 
 Find your way into the osTicket instance and submit the password sent from the Customer Support Agent to the customer Charles Smithson.
 
-<figure><img src="../../../.gitbook/assets/ภาพ (11).png" alt=""><figcaption><p>674135@inlanefreight.local</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (3).png" alt=""><figcaption><p>674135@inlanefreight.local</p></figcaption></figure>
 
 Login with `kevin@inlanefreight.local:Fish1ng_s3ason!`
 
-<figure><img src="../../../.gitbook/assets/ภาพ (9).png" alt=""><figcaption><p>Inlane_welcome!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (7).png" alt=""><figcaption><p>Inlane_welcome!</p></figcaption></figure>

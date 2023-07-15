@@ -104,5 +104,5 @@ python3 firefox_decrypt.py
 
 Running lazagne.py will give us the following
 
-<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p>TUqr7QfLTLhruhVbCP</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption><p>TUqr7QfLTLhruhVbCP</p></figcaption></figure>
 

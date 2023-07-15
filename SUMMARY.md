@@ -145,6 +145,21 @@
     * [osTicket](cheat-sheets/attacking-common-applications/customer-service-mgmt-and-configuration-management/osticket.md)
     * [Gitlab - Discovery & Enumeration](cheat-sheets/attacking-common-applications/customer-service-mgmt-and-configuration-management/gitlab-discovery-and-enumeration.md)
     * [Attacking GitLab](cheat-sheets/attacking-common-applications/customer-service-mgmt-and-configuration-management/attacking-gitlab.md)
+  * [Common Gateway Interfaces](cheat-sheets/attacking-common-applications/common-gateway-interfaces/README.md)
+    * [Attacking Tomcat CGI](cheat-sheets/attacking-common-applications/common-gateway-interfaces/attacking-tomcat-cgi.md)
+    * [CGI - Shellshock](cheat-sheets/attacking-common-applications/common-gateway-interfaces/cgi-shellshock.md)
+  * [Thick Client Applications](cheat-sheets/attacking-common-applications/thick-client-applications/README.md)
+    * [Attacking Thick Client Applications](cheat-sheets/attacking-common-applications/thick-client-applications/attacking-thick-client-applications.md)
+  * [Miscellaneous Application](cheat-sheets/attacking-common-applications/miscellaneous-application/README.md)
+    * [ColdFusion - Discovery & Enumeration](cheat-sheets/attacking-common-applications/miscellaneous-application/coldfusion-discovery-and-enumeration.md)
+    * [Attacking ColdFusion](cheat-sheets/attacking-common-applications/miscellaneous-application/attacking-coldfusion.md)
+    * [IIS Tilde Enumeration](cheat-sheets/attacking-common-applications/miscellaneous-application/iis-tilde-enumeration.md)
+    * [Attacking LDAP](cheat-sheets/attacking-common-applications/miscellaneous-application/attacking-ldap.md)
+    * [Web Mass Assignment Vulnerabilities](cheat-sheets/attacking-common-applications/miscellaneous-application/web-mass-assignment-vulnerabilities.md)
+    * [Attacking Applications Connecting to Services](cheat-sheets/attacking-common-applications/miscellaneous-application/attacking-applications-connecting-to-services.md)
+  * [Skill Assessment 1](cheat-sheets/attacking-common-applications/skill-assessment-1.md)
+  * [Skills Assessment 2](cheat-sheets/attacking-common-applications/skills-assessment-2.md)
+  * [Skills Assessment 3](cheat-sheets/attacking-common-applications/skills-assessment-3.md)
 
 ## Writeups
 

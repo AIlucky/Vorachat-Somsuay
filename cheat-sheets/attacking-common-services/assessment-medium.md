@@ -111,7 +111,7 @@ inlanefreight.htb.      604800  IN      SOA     inlanefreight.htb. root.inlanefr
 
 ## FTP
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>simon:8Ns8j1b!23hs4921smHzwn</p></figcaption></figure>
 

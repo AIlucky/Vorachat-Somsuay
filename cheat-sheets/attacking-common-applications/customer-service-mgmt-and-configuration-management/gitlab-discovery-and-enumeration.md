@@ -66,11 +66,11 @@ In a real-world scenario, we may be able to find a considerable amount of sensit
 
 Enumerate the GitLab instance at http://gitlab.inlanefreight.local. What is the version number?
 
-<figure><img src="../../../.gitbook/assets/ภาพ (3).png" alt=""><figcaption><p>create gitlab acount and go to help page.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (1).png" alt=""><figcaption><p>create gitlab acount and go to help page.</p></figcaption></figure>
 
 Find the PostgreSQL database password in the example project.
 
-<figure><img src="../../../.gitbook/assets/ภาพ (5).png" alt=""><figcaption><p>postgres</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (13).png" alt=""><figcaption><p>postgres</p></figcaption></figure>
 
 
 

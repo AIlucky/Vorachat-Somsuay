@@ -97,7 +97,7 @@ xfreerdp  /v:10.129.201.126 /u:julio /pth:64F12CDDAA88057E06A81B54E73B949B
 >
 > &#x20;Otherwise we will get the following error.
 >
-> <img src="../../../.gitbook/assets/image (12) (1).png" alt="" data-size="original">
+> <img src="../../../.gitbook/assets/image (12) (1) (1).png" alt="" data-size="original">
 
 
 

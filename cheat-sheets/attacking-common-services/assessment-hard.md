@@ -93,7 +93,7 @@ We have access to the smb share and got all the files which seems to be credenti
 
 Tried Fiona with RDP and got the credentials.
 
-<figure><img src="../../.gitbook/assets/image (49) (1).png" alt=""><figcaption><p>Fiona:48Ns72!bns74@S84NNNSl</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49) (1) (1).png" alt=""><figcaption><p>Fiona:48Ns72!bns74@S84NNNSl</p></figcaption></figure>
 
 Connected to the RDP session but nothing found. Tried to use the credentials with windows authen to access the mssql
 
@@ -115,7 +115,7 @@ But can't select the database server because of the impersonated user are not ab
 
 I then realized that I can use the sqlcmd in the rdp session and get the list of users that I could impersonate.
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>john and simon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption><p>john and simon</p></figcaption></figure>
 
 user John doesn't have any more privilege than the user Fiona, I tried to use user Simon and it was able to access the database where Fiona and John can't.
 
@@ -143,6 +143,6 @@ Configuration option 'show advanced options' changed from 0 to 1. Run the RECONF
 </strong><strong>2> go
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>flag</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (1) (1).png" alt=""><figcaption><p>flag</p></figcaption></figure>
 
 This assessment wasn't hard but impossible, given the contents in module, no one who just started the learning path could figure this out without help.

@@ -146,7 +146,7 @@ curl -s http://blog.inlanefreight.local/wp-content/uploads/2021/08/uthsdkbywoxee
 
 from our previous WPScan we found
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>doug</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p>doug</p></figcaption></figure>
 
 **Perform a login bruteforcing attack against the discovered user. Submit the user's password as the answer.**
 
@@ -284,9 +284,9 @@ doug:jessica1
 
 **Using the methods shown in this section, find another system user whose login shell is set to /bin/bash.**
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>404.php</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption><p>404.php</p></figcaption></figure>
 
 ```
 curl http://blog.inlanefreight.local/wp-content/themes/twentynineteen/404.php?0=cat%20/etc/passwd

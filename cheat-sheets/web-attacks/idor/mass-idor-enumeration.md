@@ -68,7 +68,7 @@ done
 
 get a list of documents of the first 20 user uid's in /documents.php, one of which should have a '.txt' file with the flag.
 
-<figure><img src="../../../.gitbook/assets/image (95).png" alt=""><figcaption><p>Send request to intruder</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (95) (1).png" alt=""><figcaption><p>Send request to intruder</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>payload 1-20</p></figcaption></figure>
 
@@ -76,5 +76,5 @@ get a list of documents of the first 20 user uid's in /documents.php, one of whi
 
 We found the flag where `uid=15`
 
-<figure><img src="../../../.gitbook/assets/image (97).png" alt=""><figcaption><p>HTB{4ll_f1l35_4r3_m1n3}</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (97) (1).png" alt=""><figcaption><p>HTB{4ll_f1l35_4r3_m1n3}</p></figcaption></figure>
 

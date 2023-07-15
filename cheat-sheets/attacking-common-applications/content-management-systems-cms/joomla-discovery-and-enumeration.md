@@ -177,7 +177,7 @@ admin:admin
 
 **Fingerprint the Joomla version in use on http://app.inlanefreight.local (Format: x.x.x)**
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>3.10.0</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>3.10.0</p></figcaption></figure>
 
 **Find the password for the admin user on http://app.inlanefreight.local**
 

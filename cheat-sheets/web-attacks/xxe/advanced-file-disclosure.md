@@ -114,5 +114,5 @@ Use either method from this section to read the flag at '/flag.php'. (You may us
 </root>
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 

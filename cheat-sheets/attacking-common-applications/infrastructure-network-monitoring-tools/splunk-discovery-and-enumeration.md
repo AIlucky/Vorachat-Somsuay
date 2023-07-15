@@ -77,8 +77,8 @@ Once logged in to Splunk, we can **browse data**, **run reports**, **create dash
 
 Enumerate the Splunk instance as an unauthenticated user. Submit the version number to move on (format 1.2.3).
 
-<figure><img src="../../../.gitbook/assets/ภาพ (4).png" alt=""><figcaption><p>8000</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (2).png" alt=""><figcaption><p>8000</p></figcaption></figure>
 
 Access using HTTPS 10.129.201.50:8000
 
-<figure><img src="../../../.gitbook/assets/ภาพ.png" alt=""><figcaption><p>8.2.2</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (11).png" alt=""><figcaption><p>8.2.2</p></figcaption></figure>

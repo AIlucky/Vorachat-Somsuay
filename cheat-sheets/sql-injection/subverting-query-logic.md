@@ -40,7 +40,7 @@ SELECT * FROM logins WHERE username='admin' or '1'='1' AND password = 'something
 
 #### Assessment
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>vuln to SQLi</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (3).png" alt=""><figcaption><p>vuln to SQLi</p></figcaption></figure>
 
 ```sql
 SELECT * FROM logins WHERE username=''' AND password = '';
@@ -117,7 +117,7 @@ Final query
 <pre class="language-sql"><code class="lang-sql"><strong>SELECT * FROM logins WHERE (username='adasdfmin') OR id = 5 -- -' AND id > 1) AND password = 'xxx';
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (95) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -160,7 +160,7 @@ hashcat -m 18200 ilfreight_asrep /usr/share/wordlists/rockyou.txt
 
 <figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption><p>Get the asrep ticket</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption><p>ygroce:Pass@word</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>ygroce:Pass@word</p></figcaption></figure>
 
 
 

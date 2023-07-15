@@ -246,7 +246,7 @@ A lot can be done with UAC filters, operators, and attribute matching with OID r
 
 **What domain user is explicitly listed as a member of the local Administrators group on the target host?**
 
-<figure><img src="../../../.gitbook/assets/image (28) (2).png" alt=""><figcaption><p>adunn</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>adunn</p></figcaption></figure>
 
 **Utilizing techniques learned in this section, find the flag hidden in the description field of a disabled account with administrative privileges. Submit the flag as the answer.**
 

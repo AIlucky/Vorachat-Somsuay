@@ -2,7 +2,7 @@
 
 Assess the web application and use a variety of techniques to gain remote code execution and find a flag in the / root directory of the file system. Submit the contents of the flag as your answer.
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption><p>page parameter</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82) (1).png" alt=""><figcaption><p>page parameter</p></figcaption></figure>
 
 * Can't include /etc/passwd
 * Can't ffuf for valid files
@@ -12,11 +12,11 @@ Assess the web application and use a variety of techniques to gain remote code e
 view-source:http://46.101.95.166:30586/index.php?page=php://filter/read=convert.base64-encode/resource=index
 ```
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>ilf_admin/index.php</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>ilf_admin/index.php</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>log parameter seems to be including files</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (80) (1).png" alt=""><figcaption><p>log parameter seems to be including files</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (19) (3).png" alt=""><figcaption><p>included file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>included file</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>No session values found so is not php session poisoning</p></figcaption></figure>
 
@@ -93,7 +93,7 @@ Above are list of files that were accessible
 
 to perform server log poisoning we need access to access.log file&#x20;
 
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption><p>../../../../../var/log/nginx/access.log</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88) (1).png" alt=""><figcaption><p>../../../../../var/log/nginx/access.log</p></figcaption></figure>
 
 now we can try to edit the header to php webshell.
 

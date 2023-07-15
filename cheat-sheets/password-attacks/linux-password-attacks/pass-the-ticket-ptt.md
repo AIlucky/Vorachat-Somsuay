@@ -301,7 +301,7 @@ $ /opt/linikatz.sh
 
 Connect to the target machine using SSH to the port TCP/2222 and the provided credentials. Read the flag in David's home directory.
 
-<figure><img src="../../../.gitbook/assets/image (59) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (59) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Which group can connect to LINUX01?
 
@@ -313,7 +313,7 @@ Look for a keytab file that you have read and write access. Submit the file name
 
 Extract the hashes from the keytab file you found, crack the password, log in as the user and submit the flag in the user's home directory.
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (78) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -325,7 +325,7 @@ Check Carlos' crontab, and look for keytabs to which Carlos has access. Try to g
 
 Check svc\_workstation's sudo privileges and get access as root. Submit the flag in /root/flag.txt directory as the response.
 
-<figure><img src="../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Check the /tmp directory and find Julio's Kerberos ticket (ccache file). Import the ticket and read the contents of julio.txt from the domain share folder \DC01\julio.
 
@@ -335,11 +335,11 @@ FILE:/tmp/krb5cc_647401109_cqAsZ9
 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the LINUX01$ Kerberos ticket to read the flag found in \DC01\linux01. Submit the contents as your response (the flag starts with Us1nG\_).
 

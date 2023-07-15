@@ -215,7 +215,7 @@ We may be able to either log in to one of these using weak credentials such as `
 
 What version of Tomcat is running on the application located at http://web01.inlanefreight.local:8180?
 
-<figure><img src="../../../.gitbook/assets/ภาพ (15).png" alt=""><figcaption><p>10.0.10</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (10).png" alt=""><figcaption><p>10.0.10</p></figcaption></figure>
 
 What role does the admin user have in the configuration example?
 

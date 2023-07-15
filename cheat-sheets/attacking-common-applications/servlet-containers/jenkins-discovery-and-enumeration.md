@@ -35,4 +35,4 @@ We may encounter a Jenkins instance that uses weak or default credentials such a
 
 Log in to the Jenkins instance at http://jenkins.inlanefreight.local:8000. Browse around and submit the version number when you are ready to move on.
 
-<figure><img src="../../../.gitbook/assets/ภาพ (7).png" alt=""><figcaption><p>2.303.1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (6).png" alt=""><figcaption><p>2.303.1</p></figcaption></figure>

@@ -130,7 +130,7 @@ Splunk enterprise > App > Manage App > install app from file > browse&#x20;
 
 listen before clicking upload.
 
-<figure><img src="../../../.gitbook/assets/ภาพ (1).png" alt=""><figcaption><p>nt authority\system</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ (12).png" alt=""><figcaption><p>nt authority\system</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ภาพ (13).png" alt=""><figcaption><p>l00k_ma_no_AutH!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ภาพ.png" alt=""><figcaption><p>l00k_ma_no_AutH!</p></figcaption></figure>
 
