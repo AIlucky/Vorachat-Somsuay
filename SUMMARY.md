@@ -185,11 +185,19 @@
     * [Shared Libraries](cheat-sheets/linux-privilege-escalation/priv-esc-linux-internal-based/shared-libraries.md)
     * [Shared Object Hijacking](cheat-sheets/linux-privilege-escalation/priv-esc-linux-internal-based/shared-object-hijacking.md)
     * [Python Library Hijacking](cheat-sheets/linux-privilege-escalation/priv-esc-linux-internal-based/python-library-hijacking.md)
+  * [Recent 0-days](cheat-sheets/linux-privilege-escalation/recent-0-days/README.md)
+    * [Sudo](cheat-sheets/linux-privilege-escalation/recent-0-days/sudo.md)
+    * [Polkit](cheat-sheets/linux-privilege-escalation/recent-0-days/polkit.md)
+    * [Dirty Pipe](cheat-sheets/linux-privilege-escalation/recent-0-days/dirty-pipe.md)
+    * [Netfilter](cheat-sheets/linux-privilege-escalation/recent-0-days/netfilter.md)
+  * [Skills Assessment](cheat-sheets/linux-privilege-escalation/skills-assessment.md)
 
 ## Writeups
 
 * [💚 Hack The Box](writeups/hack-the-box/README.md)
   * [Shells & Payloads The Live Engagement](writeups/hack-the-box/shells-and-payloads-the-live-engagement.md)
+* [💙 tryhackme](writeups/tryhackme/README.md)
+  * [Attacktive Directory](writeups/tryhackme/attacktive-directory.md)
 
 ## ETC
 

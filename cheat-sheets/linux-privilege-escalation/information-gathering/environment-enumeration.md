@@ -266,7 +266,7 @@ drwx------ 2 htb-student htb-student 4096 Nov 28 12:32 ssh-OKlLKjlc98xh
 
 Enumerate the Linux environment and look for interesting files that might contain sensitive data. Submit the flag as the answer.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>HTB{1nt3rn4l_5cr1p7_l34k}</p></figcaption></figure>
 
 * Assuming that we know that the flag wil contain the name `'HTB{[^}]*}'`&#x20;
 * redirecting stdout erros to /dev/null

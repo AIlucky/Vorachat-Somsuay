@@ -80,3 +80,8 @@ tb-user@ubuntu:~$ echo "$(<flag.txt)"
 HTB{35c4p3_7h3_r3stricted_5h311}
 ```
 
+```
+ssh psj@server_name-t "bash --noprofile"
+```
+
+This also works

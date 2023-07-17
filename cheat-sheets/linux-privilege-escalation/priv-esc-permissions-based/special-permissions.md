@@ -113,9 +113,9 @@ htb-student@NIX02:~$ find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/nu
 Find a file with the setgid bit set that was not shown in the section command output (full path to the binary).
 
 ```
-htb-student@NIX02:~$ find / -user root -perm -6000 -exec ls -ldb {} \; 2>/dev/null
+htbhtb-student@NIX02:~$ find / -user root -perm -6000 -exec ls -ldb {} \; 2>/dev/null
 -rwsr-sr-x 1 root root 85832 Nov 30  2017 /usr/lib/snapd/snap-confine
--rwsr-sr-x 1 root root 240 Feb  1  2016 /usr/bin/facte
+-rwsr-sr-x 1 root root 240 Feb  1  2016 /usr/bin/facter
 ```
 
-* `/usr/bin/facte`
+* `/usr/bin/facter`

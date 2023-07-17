@@ -318,7 +318,7 @@ netdb:D@ta\_bAse\_adm1n!
 .\mssqlclient.exe INLANEFREIGHT.LOCAL/netdb:'D@ta_bAse_adm1n!'@172.16.7.60
 ```
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption><p>netdb:D@ta_bAse_adm1n!</p></figcaption></figure>
 
 Seems like the xp\_cmdshell is working without enabling it
 

@@ -8,7 +8,7 @@ Profile button sends the following request
 
 We can enumerate uid 1-100 and find the admin user and look for the keyword admin.
 
-<figure><img src="../../../.gitbook/assets/image (104).png" alt=""><figcaption><p>only one user with Administrator</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (104) (1).png" alt=""><figcaption><p>only one user with Administrator</p></figcaption></figure>
 
 Try changing password with for the Administrator account
 
@@ -22,7 +22,7 @@ Then for the request we change from POST to GET
 
 <figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption><p>we are now logged in as admin and ADD EVENT function is not there before</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (97).png" alt=""><figcaption><p>create event request seems to be injection point.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (97) (1).png" alt=""><figcaption><p>create event request seems to be injection point.</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (96).png" alt=""><figcaption><p>at the name tag</p></figcaption></figure>
 

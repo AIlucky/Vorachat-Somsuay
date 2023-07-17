@@ -76,5 +76,5 @@ get a list of documents of the first 20 user uid's in /documents.php, one of whi
 
 We found the flag where `uid=15`
 
-<figure><img src="../../../.gitbook/assets/image (97) (1).png" alt=""><figcaption><p>HTB{4ll_f1l35_4r3_m1n3}</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (97) (1) (1).png" alt=""><figcaption><p>HTB{4ll_f1l35_4r3_m1n3}</p></figcaption></figure>
 

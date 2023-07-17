@@ -66,7 +66,7 @@ Nmap done: 1 IP address (1 host up) scanned in 35.46 seconds
 
 *
 
-    <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>9.0.0.M1</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>9.0.0.M1</p></figcaption></figure>
 
 **Exploit the application to obtain a shell and submit the contents of the flag.txt file on the Administrator desktop.**
 
@@ -105,4 +105,4 @@ ________________________________________________
 
 <figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>f55763d31a8f63ec935abd07aee5d3d0</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption><p>f55763d31a8f63ec935abd07aee5d3d0</p></figcaption></figure>

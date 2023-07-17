@@ -140,3 +140,7 @@ Review the NFS server's export list and find a directory holding a flag.
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>fc8c065b9384beaa162afe436a694acf</p></figcaption></figure>
 
 Tried every way to get root using the c code but no luck not sure what went wrong, the code could be executed and the new shell session was spawned everytime but just didn't spawned as root 😢
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>when chmod the file, we have to be root!!!!!</p></figcaption></figure>
+
+<mark style="color:red;">**Don't forget to sudo su before chmod the shell!!!**</mark>
