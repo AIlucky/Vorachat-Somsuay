@@ -121,5 +121,5 @@ uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
 
 Is vulnerable to shell shock, then get a reverse shell.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Sh3ll_Sh0cK_123</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Sh3ll_Sh0cK_123</p></figcaption></figure>
 

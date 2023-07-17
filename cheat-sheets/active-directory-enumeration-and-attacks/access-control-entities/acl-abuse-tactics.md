@@ -153,7 +153,7 @@ PS C:\htb> Get-DomainGroupMember -Identity "Help Desk Level 1" | Select MemberNa
 
 <figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>Change damundsens' password</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>add damundsens to Help Desk Level 1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (2).png" alt=""><figcaption><p>add damundsens to Help Desk Level 1</p></figcaption></figure>
 
 Targetted kerberoasting
 

@@ -99,10 +99,10 @@ ________________________________________________
 :: Progress: [4614/4614] :: Job [1/1] :: 193 req/sec :: Duration: [0:00:26] :: Errors: 0 ::
 ```
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/jaiguptanick/CVE-2019-0232" %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>f55763d31a8f63ec935abd07aee5d3d0</p></figcaption></figure>

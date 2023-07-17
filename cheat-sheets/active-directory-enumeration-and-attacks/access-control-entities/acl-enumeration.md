@@ -267,7 +267,7 @@ This option will give us objects we have control over directly via group members
 
 If we click on the `1` next to `First Degree Object Control`, we see the first set of rights that we enumerated,
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>ForceChangePassword over damundsen user</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>ForceChangePassword over damundsen user</p></figcaption></figure>
 
 Right click on the path will give us popup, if we click Help, we will see the following.
 

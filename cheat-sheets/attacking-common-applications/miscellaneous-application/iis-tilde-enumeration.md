@@ -111,7 +111,7 @@ gobuster dir -u http://10.129.204.231/ -w /tmp/list.txt -x .aspx,.asp
 
 
 
-![](<../../../.gitbook/assets/image (15).png>)
+![](<../../../.gitbook/assets/image (15) (3).png>)
 
 
 

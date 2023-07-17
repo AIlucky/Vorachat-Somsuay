@@ -44,7 +44,7 @@ PORT     STATE SERVICE  VERSION
 Service Info: Host:  skills2; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```
@@ -61,11 +61,11 @@ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -
 
 **What is the FQDN of the third vhost?**
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (3).png" alt=""><figcaption></figcaption></figure>
 
 **What application is running on this third vhost? (One word)**
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
 
 **What is the admin password to access this application?**
 

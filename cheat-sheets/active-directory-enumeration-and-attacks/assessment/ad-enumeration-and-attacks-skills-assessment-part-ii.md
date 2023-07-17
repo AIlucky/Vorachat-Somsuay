@@ -308,7 +308,7 @@ BR086@inlanefreight.local:Welcome1
 
 **Locate a configuration file containing an MSSQL connection string. What is the password for the user listed in this file?**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>We can see that in smb share there is a config file that this user has access to has a password</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p>We can see that in smb share there is a config file that this user has access to has a password</p></figcaption></figure>
 
 netdb:D@ta\_bAse\_adm1n!
 
@@ -334,7 +334,7 @@ Start python server at linux attack machine where the nc.exe is present
 
 Don't forget to run nc -lvnp 4444 at the attack host.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>got the shell</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption><p>got the shell</p></figcaption></figure>
 
 Since the seImpersonate was enabled there are few vulnerabilities that we could try. We can check if the system is vulnerable to juicy potato attack
 
