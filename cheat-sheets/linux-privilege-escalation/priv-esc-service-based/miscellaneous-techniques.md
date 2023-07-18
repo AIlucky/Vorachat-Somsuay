@@ -137,7 +137,7 @@ uid=0(root) gid=0(root) groups=0(root)
 
 Review the NFS server's export list and find a directory holding a flag.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>fc8c065b9384beaa162afe436a694acf</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>fc8c065b9384beaa162afe436a694acf</p></figcaption></figure>
 
 Tried every way to get root using the c code but no luck not sure what went wrong, the code could be executed and the new shell session was spawned everytime but just didn't spawned as root 😢
 

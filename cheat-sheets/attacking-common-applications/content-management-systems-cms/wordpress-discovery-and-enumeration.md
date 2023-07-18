@@ -208,4 +208,4 @@ Find the version number of this plugin. (i.e., 4.5.2)
 http://blog.inlanefreight.local/wp-content/plugins/wp-sitemap-page/readme.txt
 ```
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>1.6.4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47) (2).png" alt=""><figcaption><p>1.6.4</p></figcaption></figure>

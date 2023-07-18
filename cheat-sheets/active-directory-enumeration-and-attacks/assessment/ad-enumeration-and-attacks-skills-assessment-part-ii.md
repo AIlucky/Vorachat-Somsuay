@@ -464,11 +464,11 @@ Supplemental Credentials:
 
 **Obtain credentials for a user who has GenericAll rights over the Domain Admins group. What this user's account name?**
 
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (2).png" alt=""><figcaption><p>CT059</p></figcaption></figure>
 
 **Crack this user's password hash and submit the cleartext password as your answer.**
 
-<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (2).png" alt=""><figcaption><p>ct059</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>CT059:charlie1</p></figcaption></figure>
 

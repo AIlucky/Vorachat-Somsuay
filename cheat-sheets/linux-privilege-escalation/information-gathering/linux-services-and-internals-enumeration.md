@@ -163,9 +163,9 @@ look at the process list to get information about which scripts or binaries are 
 
 What is the latest Python version that is installed on the target?
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Not the correct answer</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (3).png" alt=""><figcaption><p>Not the correct answer</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>3.11</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>3.11</p></figcaption></figure>
 
 
 

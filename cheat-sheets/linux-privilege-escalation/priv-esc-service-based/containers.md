@@ -150,11 +150,11 @@ Compared to Docker, Kubernetes is a platform for running and managing containers
 
 Escalate the privileges and submit the contents of flag.txt as the answer.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>already existing template for container</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption><p>already existing template for container</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>check if the container is imported</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>check if the container is imported</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>alpine doesn't has bash so sh will do</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (3).png" alt=""><figcaption><p>alpine doesn't has bash so sh will do</p></figcaption></figure>
 
 ```
 ~ # ls -l /mnt/root/root

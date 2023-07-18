@@ -58,4 +58,4 @@ PATH ABUSE!!
 
 Review the PATH of the htb-student user. What non-default directory is part of the user's PATH?
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>/tmp</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (4).png" alt=""><figcaption><p>/tmp</p></figcaption></figure>

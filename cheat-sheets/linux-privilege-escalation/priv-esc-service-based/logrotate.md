@@ -165,7 +165,7 @@ htb-student@ubuntu:~$ logrotate --version
 logrotate 3.11.0
 ```
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>the logrotate is running as root</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>the logrotate is running as root</p></figcaption></figure>
 
 ```
 htb-student@ubuntu:~$ cd logrotten/

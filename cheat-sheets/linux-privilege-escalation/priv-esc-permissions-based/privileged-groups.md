@@ -110,7 +110,7 @@ uid=1010(secaudit) gid=1010(secaudit) groups=1010(secaudit),4(adm)
 
 Use the privileged group rights of the secaudit user to locate a flag.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>ADM group</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (3).png" alt=""><figcaption><p>ADM group</p></figcaption></figure>
 
 ```
 secaudit@NIX02:/var/log$ grep -r -l 'flag' . 2>/dev/null

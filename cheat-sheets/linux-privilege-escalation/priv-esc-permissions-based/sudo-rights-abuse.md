@@ -85,4 +85,4 @@ User htb-student may run the following commands on NIX02:
     (root) NOPASSWD: /usr/bin/openssl
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>tried reverse shell with sudo but did not get the root priv for some reason</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>tried reverse shell with sudo but did not get the root priv for some reason</p></figcaption></figure>

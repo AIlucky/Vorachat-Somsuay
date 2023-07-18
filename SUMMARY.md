@@ -191,6 +191,19 @@
     * [Dirty Pipe](cheat-sheets/linux-privilege-escalation/recent-0-days/dirty-pipe.md)
     * [Netfilter](cheat-sheets/linux-privilege-escalation/recent-0-days/netfilter.md)
   * [Skills Assessment](cheat-sheets/linux-privilege-escalation/skills-assessment.md)
+* [🪟 Windows Privilege Escalation](cheat-sheets/windows-privilege-escalation/README.md)
+  * [Information Gathering](cheat-sheets/windows-privilege-escalation/information-gathering/README.md)
+    * [Situational Awareness](cheat-sheets/windows-privilege-escalation/information-gathering/situational-awareness.md)
+    * [Initial Enumeration](cheat-sheets/windows-privilege-escalation/information-gathering/initial-enumeration.md)
+    * [Communication with Processes](cheat-sheets/windows-privilege-escalation/information-gathering/communication-with-processes.md)
+  * [Windows User Privileges](cheat-sheets/windows-privilege-escalation/windows-user-privileges/README.md)
+    * [SeImpersonate and SeAssignPrimaryToken](cheat-sheets/windows-privilege-escalation/windows-user-privileges/seimpersonate-and-seassignprimarytoken.md)
+    * [SeDebugPrivilege](cheat-sheets/windows-privilege-escalation/windows-user-privileges/sedebugprivilege.md)
+    * [SeTakeOwnershipPrivilege](cheat-sheets/windows-privilege-escalation/windows-user-privileges/setakeownershipprivilege.md)
+  * [Windows Group Privileges](cheat-sheets/windows-privilege-escalation/windows-group-privileges/README.md)
+    * [Windows Built-in Groups](cheat-sheets/windows-privilege-escalation/windows-group-privileges/windows-built-in-groups.md)
+    * [Event Log Readers](cheat-sheets/windows-privilege-escalation/windows-group-privileges/event-log-readers.md)
+    * [DnsAdmins](cheat-sheets/windows-privilege-escalation/windows-group-privileges/dnsadmins.md)
 
 ## Writeups
 

@@ -20,5 +20,5 @@ Whenever finding SSH keys check the `known_hosts` file to find targets.
 
 Find the WordPress database password.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>W0rdpr3ss_sekur1ty!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (4).png" alt=""><figcaption><p>W0rdpr3ss_sekur1ty!</p></figcaption></figure>
 
