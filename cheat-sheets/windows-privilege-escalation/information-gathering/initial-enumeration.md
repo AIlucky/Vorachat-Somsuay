@@ -272,7 +272,7 @@ The command completed successfully.
 
 **What service is listening on port 8080 (service name not the executable)?**
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Tomcat8</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Tomcat8</p></figcaption></figure>
 
 1. Get pid using `netstat -aof | findstr :8080`&#x20;
 2. Get taskname using `tasklist /fi "pid eq 2320"` (2320 is the pid got from step 1)

@@ -69,7 +69,7 @@ seems like something was done with the id\_rsa file.
 * cracked the hash
 *   And got the passphrase which doesn't use the same passphrase as dennis (might be root).
 
-    <figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>P@ssw0rd12020!</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>P@ssw0rd12020!</p></figcaption></figure>
 
 
 * Then SSH to the system using the id\_rsa file along with the passphrase

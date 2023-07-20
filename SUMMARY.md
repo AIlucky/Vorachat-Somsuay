@@ -204,6 +204,20 @@
     * [Windows Built-in Groups](cheat-sheets/windows-privilege-escalation/windows-group-privileges/windows-built-in-groups.md)
     * [Event Log Readers](cheat-sheets/windows-privilege-escalation/windows-group-privileges/event-log-readers.md)
     * [DnsAdmins](cheat-sheets/windows-privilege-escalation/windows-group-privileges/dnsadmins.md)
+    * [Hyper-V Administrators](cheat-sheets/windows-privilege-escalation/windows-group-privileges/hyper-v-administrators.md)
+    * [Print Operators](cheat-sheets/windows-privilege-escalation/windows-group-privileges/print-operators.md)
+    * [Server Operators](cheat-sheets/windows-privilege-escalation/windows-group-privileges/server-operators.md)
+  * [Attacking the OS](cheat-sheets/windows-privilege-escalation/attacking-the-os/README.md)
+    * [User Account Control](cheat-sheets/windows-privilege-escalation/attacking-the-os/user-account-control.md)
+    * [Weak Permissions](cheat-sheets/windows-privilege-escalation/attacking-the-os/weak-permissions.md)
+    * [Kernel Exploits](cheat-sheets/windows-privilege-escalation/attacking-the-os/kernel-exploits.md)
+    * [Vulnerable Services](cheat-sheets/windows-privilege-escalation/attacking-the-os/vulnerable-services.md)
+  * [Credential Hunting](cheat-sheets/windows-privilege-escalation/credential-hunting/README.md)
+    * [Other Files](cheat-sheets/windows-privilege-escalation/credential-hunting/other-files.md)
+    * [Further Credential Theft](cheat-sheets/windows-privilege-escalation/credential-hunting/further-credential-theft.md)
+  * [Additional Techniques](cheat-sheets/windows-privilege-escalation/additional-techniques/README.md)
+    * [Interacting with Users](cheat-sheets/windows-privilege-escalation/additional-techniques/interacting-with-users.md)
+    * [Pillaging](cheat-sheets/windows-privilege-escalation/additional-techniques/pillaging.md)
 
 ## Writeups
 

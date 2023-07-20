@@ -143,8 +143,8 @@ c:\inetpub\wwwwroot\web.config
 
 Leverage SeTakeOwnershipPrivilege rights over the file located at "C:\TakeOwn\flag.txt" and submit the contents.
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>enabling the privileges</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47) (2).png" alt=""><figcaption><p>enabling the privileges</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption><p>Change the owner since the owner is unknown (the file is still unreadable)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (60) (3).png" alt=""><figcaption><p>Change the owner since the owner is unknown (the file is still unreadable)</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Granting full privilege to the file and reading the flag 1m_th3_f1l3_0wn3r_n0W!</p></figcaption></figure>

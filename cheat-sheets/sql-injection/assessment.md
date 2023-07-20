@@ -41,7 +41,7 @@ flag\_cae1dadcd174.txt
 cn' UNION SELECT 1, LOAD_FILE("/flag_cae1dadcd174.txt"), 3, 4, 5-- -
 ```
 
-<figure><img src="../../.gitbook/assets/image (98) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

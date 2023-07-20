@@ -70,7 +70,7 @@ get a list of documents of the first 20 user uid's in /documents.php, one of whi
 
 <figure><img src="../../../.gitbook/assets/image (95) (1).png" alt=""><figcaption><p>Send request to intruder</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption><p>payload 1-20</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (98) (1).png" alt=""><figcaption><p>payload 1-20</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption><p>request number 15 has very different size of response.</p></figcaption></figure>
 
