@@ -157,7 +157,7 @@ $lnk.Save()
 
 <summary>Using the techniques in this section obtain the cleartext credentials for the SCCM_SVC user.</summary>
 
-![](<../../../.gitbook/assets/image (100).png>)
+![](<../../../.gitbook/assets/image (100) (1).png>)
 
 **Save the above file as @test.scf**
 

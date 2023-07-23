@@ -150,7 +150,7 @@ RDP to target with username "jordan" and password "HTB\_@cademy\_j0rdan!"
 
 Leverage SeDebugPrivilege rights and obtain the NTLM password hash for the sccm\_svc account
 
-<figure><img src="../../../.gitbook/assets/image (110).png" alt=""><figcaption><p>dump the hash</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (110) (1).png" alt=""><figcaption><p>dump the hash</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption><p>64f12cddaa88057e06a81b54e73b949b</p></figcaption></figure>
 

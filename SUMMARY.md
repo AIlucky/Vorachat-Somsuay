@@ -218,6 +218,12 @@
   * [Additional Techniques](cheat-sheets/windows-privilege-escalation/additional-techniques/README.md)
     * [Interacting with Users](cheat-sheets/windows-privilege-escalation/additional-techniques/interacting-with-users.md)
     * [Pillaging](cheat-sheets/windows-privilege-escalation/additional-techniques/pillaging.md)
+    * [Miscellaneous Techniques](cheat-sheets/windows-privilege-escalation/additional-techniques/miscellaneous-techniques.md)
+  * [End Of Life Systems](cheat-sheets/windows-privilege-escalation/end-of-life-systems/README.md)
+    * [Windows Server](cheat-sheets/windows-privilege-escalation/end-of-life-systems/windows-server.md)
+    * [Windows Desktop Versions](cheat-sheets/windows-privilege-escalation/end-of-life-systems/windows-desktop-versions.md)
+  * [Skills Assessment 1](cheat-sheets/windows-privilege-escalation/skills-assessment-1.md)
+  * [Skills Assessment 2](cheat-sheets/windows-privilege-escalation/skills-assessment-2.md)
 
 ## Writeups
 

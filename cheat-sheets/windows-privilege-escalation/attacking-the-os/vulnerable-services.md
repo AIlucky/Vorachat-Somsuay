@@ -119,6 +119,6 @@ Execute the exploit, The exploit will try to get the shell.ps1 from our system (
 
 At the listener we will get the shell as SYSTEM user.
 
-<img src="../../../.gitbook/assets/image (115).png" alt="" data-size="original"> Aud1t\_th0se\_th1rd\_paRty\_s3rvices!
+<img src="../../../.gitbook/assets/image (115) (1).png" alt="" data-size="original"> Aud1t\_th0se\_th1rd\_paRty\_s3rvices!
 
 </details>

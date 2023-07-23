@@ -1,6 +1,6 @@
 # User Account Control
 
-<figure><img src="../../../.gitbook/assets/image (99).png" alt=""><figcaption><p>This promt</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (99) (1).png" alt=""><figcaption><p>This promt</p></figcaption></figure>
 
 There are 10 Group Policy settings that can be set for UAC. The following table provides additional detail:
 
