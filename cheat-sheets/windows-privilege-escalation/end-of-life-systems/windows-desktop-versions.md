@@ -277,7 +277,7 @@ PS C:\Users\htb-student\Desktop> Invoke-MS16-032
 [!] Holy handle leak Batman, we have a SYSTEM shell!!
 ```
 
-![](<../../../.gitbook/assets/image (123).png>)
+![](<../../../.gitbook/assets/image (123) (1).png>)
 
 Cm0n\_l3ts\_upgRade\_t0\_win10!
 

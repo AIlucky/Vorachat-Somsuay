@@ -224,6 +224,15 @@
     * [Windows Desktop Versions](cheat-sheets/windows-privilege-escalation/end-of-life-systems/windows-desktop-versions.md)
   * [Skills Assessment 1](cheat-sheets/windows-privilege-escalation/skills-assessment-1.md)
   * [Skills Assessment 2](cheat-sheets/windows-privilege-escalation/skills-assessment-2.md)
+* [🏢 Attacking Enterprise Networks](cheat-sheets/attacking-enterprise-networks/README.md)
+  * [External Testing](cheat-sheets/attacking-enterprise-networks/external-testing/README.md)
+    * [External Information Gathering](cheat-sheets/attacking-enterprise-networks/external-testing/external-information-gathering.md)
+    * [Service Enumeration](cheat-sheets/attacking-enterprise-networks/external-testing/service-enumeration.md)
+    * [Web Enumeration](cheat-sheets/attacking-enterprise-networks/external-testing/web-enumeration.md)
+    * [Initial Access](cheat-sheets/attacking-enterprise-networks/external-testing/initial-access.md)
+  * [Internal Testing](cheat-sheets/attacking-enterprise-networks/internal-testing/README.md)
+    * [Post-Exploitation Persistence](cheat-sheets/attacking-enterprise-networks/internal-testing/post-exploitation-persistence.md)
+    * [Internal Information Gathering](cheat-sheets/attacking-enterprise-networks/internal-testing/internal-information-gathering.md)
 
 ## Writeups
 

@@ -200,7 +200,7 @@ Interesting Finding(s):
 
 Perform manual enumeration to discover another installed plugin. Submit the plugin name as the answer (3 words).
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>wp-sitemap-page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p>wp-sitemap-page</p></figcaption></figure>
 
 Find the version number of this plugin. (i.e., 4.5.2)
 

@@ -178,7 +178,7 @@ In Windows, we can right-click on the file and choose `Mount`, or use the `Disk 
 
 Using the techniques in this section, find the cleartext password for an account on the target host.
 
-<figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (118) (1).png" alt=""><figcaption></figcaption></figure>
 
 **!QAZXSW@3edc**
 

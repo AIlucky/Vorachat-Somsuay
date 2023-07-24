@@ -87,4 +87,4 @@ svc_qualys::INLANEFREIGHT:1C0D42BDA98B38BF:BD8139D48603DF5EA3AD6A1AD54EFFE5:0101
 ```
 {% endcode %}
 
-<figure><img src="../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p>svc_qualys:security#1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31) (1) (2).png" alt=""><figcaption><p>svc_qualys:security#1</p></figcaption></figure>

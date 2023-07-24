@@ -172,5 +172,5 @@ zip -r backup.war cmd.jsp
 
 browse > deploy
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>/backup</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>/backup</p></figcaption></figure>
 

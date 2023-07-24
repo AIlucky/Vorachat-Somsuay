@@ -22,7 +22,7 @@ What is the password for the username "jason"?
 
 Login as the user "jason" via SSH and find the flag.txt file. Submit the contents as your answer.
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### SQL DB
 

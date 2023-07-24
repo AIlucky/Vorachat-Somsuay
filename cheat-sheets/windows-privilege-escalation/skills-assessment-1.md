@@ -42,7 +42,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 ### Command Injection
 
-![](<../../.gitbook/assets/image (126).png>)
+![](<../../.gitbook/assets/image (126) (1).png>)
 
 ```
 iis apppool\defaultapppool
@@ -58,7 +58,7 @@ iis apppool\defaultapppool
 
 I used powershell#3 base64 payload
 
-![](<../../.gitbook/assets/image (124).png>)
+![](<../../.gitbook/assets/image (124) (1).png>)
 
 ```
 rlwrap nc -lvnp 7890                          
@@ -175,7 +175,7 @@ type flag.txt
 Ev3ry_sysadm1ns_n1ghtMare!
 ```
 
-![](<../../.gitbook/assets/image (117).png>)
+![](<../../.gitbook/assets/image (117) (1).png>)
 
 ```
 C:\>where /R C:\ confidential.txt

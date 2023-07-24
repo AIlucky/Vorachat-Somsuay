@@ -118,7 +118,7 @@ Properties -> Security -> Advanced -> Disable inheritance -> Add -> Select a pri
 
 All the above settings is just to set the permission of the id\_rsa file `chmod 0400 id_rsa` 😒
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>make sure the orders are correct because Windows is trash.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p>make sure the orders are correct because Windows is trash.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p>Transfer file from pivot host to </p></figcaption></figure>
 

@@ -399,7 +399,7 @@ python3 cookieextractor.py --dbpath cookies.sqlite --host slack --cookie d
 
 ![](<../../../.gitbook/assets/image (121).png>)
 
-<img src="../../../.gitbook/assets/image (110).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (110) (1).png" alt="" data-size="original">
 
 ```
 HTB{Stealing_Cookies_To_AccessWebSites}
@@ -411,13 +411,13 @@ HTB{Stealing_Cookies_To_AccessWebSites}
 
 <summary>Log in as Jeff via RDP and find the password for the restic backups. Submit the password as the answer.</summary>
 
-![](<../../../.gitbook/assets/image (119).png>)
+![](<../../../.gitbook/assets/image (119) (1).png>)
 
 ```
 jeff:Webmaster001!
 ```
 
-![](<../../../.gitbook/assets/image (116).png>)
+![](<../../../.gitbook/assets/image (116) (1).png>)
 
 
 
